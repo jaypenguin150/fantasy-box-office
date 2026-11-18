@@ -18,6 +18,22 @@ def die(msg):
     error(msg); sys.exit(1)
 
 
+def short_names(full_names):
+    """'Gabby Porcaro' -> 'Gabby P.'  If two people would collide, use more letters of the last name ('Adam Le.')."""
+    def make(n, k):
+        parts = n.split()
+        return n if len(parts) < 2 else f"{parts[0]} {parts[-1][:k].title()}."
+    out, k = {n: make(n, 1) for n in full_names}, 1
+    while len(set(out.values())) < len(out) and k < 12:
+        k += 1
+        seen = {}
+        for n, v in out.items(): seen.setdefault(v, []).append(n)
+        for v, group in seen.items():
+            if len(group) > 1:
+                for n in group: out[n] = make(n, k)
+    return out
+
+
 def parse_rt(v):
     """'45', '45%' or '0.45' -> 0.45. Blank -> None."""
     v = str(v or "").strip().rstrip("%")
@@ -87,6 +103,8 @@ def main():
         }
 
     by_norm = {norm(n): n for n in movies}
+    style = cfg.get("nameStyle", "full")            # "short" shows 'Gabby P.'; picks.json keeps the full names
+    shown = short_names([p["name"] for p in picks["players"]]) if style == "short" else {p["name"]: p["name"] for p in picks["players"]}
     players = []
     for p in picks["players"]:
         out = []
@@ -94,7 +112,7 @@ def main():
             clean = by_norm.get(norm(k["movie"]))
             if not clean: die(f"{p['name']} picked '{k['movie']}', which isn't listed in data/movies.csv")
             out.append({"pick": k["pick"], "movie": clean, "scoring": bool(k.get("handPicked"))})
-        players.append({"name": p["name"], "employed": p.get("employed", True), "picks": out})
+        players.append({"name": shown[p["name"]], "employed": p.get("employed", True), "picks": out})
 
     data = {
         "updated": date_of(dom_snap), "rtUpdated": date_of(rt_snap), "refreshDays": cfg.get("refreshEveryDays", 10),
