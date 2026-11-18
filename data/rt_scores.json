@@ -1,36 +1,47 @@
 {
- "fetchedAt": null,
- "importedAt": "2026-11-17",
+ "fetchedAt": "2026-11-18T01:29:08+00:00",
  "scores": {
   "A Quiet Place: Day One": {
    "score": 0.86,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt13433802",
+   "matched": "A Quiet Place: Day One (2024)"
   },
   "Anyone But You": {
-   "score": 0.54,
-   "source": "workbook",
-   "checked": null
+   "score": 0.53,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt26047818",
+   "matched": "Anyone But You (2023)"
   },
   "Aquaman and the Lost Kingdom": {
    "score": 0.33,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt9663764",
+   "matched": "Aquaman and the Lost Kingdom (2023)"
   },
   "Argylle": {
-   "score": 0.33,
-   "source": "workbook",
-   "checked": null
+   "score": 0.32,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt15009428",
+   "matched": "Argylle (2024)"
   },
   "Arthur the King": {
-   "score": 0.69,
-   "source": "workbook",
-   "checked": null
+   "score": 0.71,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt10720352",
+   "matched": "Arthur the King (2024)"
   },
   "Bad Boys: Ride or Die": {
    "score": 0.65,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt4919268",
+   "matched": "Bad Boys: Ride or Die (2024)"
   },
   "Ballerina": {
    "score": 0,
@@ -39,18 +50,24 @@
   },
   "Beetlejuice Beetlejuice": {
    "score": 0.76,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt2049403",
+   "matched": "Beetlejuice Beetlejuice (2024)"
   },
   "Bob Marley: One Love": {
-   "score": 0.44,
-   "source": "workbook",
-   "checked": null
+   "score": 0.43,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt8521778",
+   "matched": "Bob Marley: One Love (2024)"
   },
   "Borderlands": {
    "score": 0.1,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt4978420",
+   "matched": "Borderlands (2024)"
   },
   "Captain America:  Brave New World": {
    "score": 0,
@@ -59,33 +76,45 @@
   },
   "Challengers": {
    "score": 0.88,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt16426418",
+   "matched": "Challengers (2024)"
   },
   "Civil War": {
    "score": 0.81,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt17279496",
+   "matched": "Civil War (2024)"
   },
   "Deadpool & Wolverine": {
-   "score": 0.74,
-   "source": "workbook",
-   "checked": null
+   "score": 0.77,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt6263850",
+   "matched": "Deadpool & Wolverine (2024)"
   },
   "Despicable Me 4": {
    "score": 0.56,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt7510222",
+   "matched": "Despicable Me 4 (2024)"
   },
   "Drive-Away Dolls": {
-   "score": 0.63,
-   "source": "workbook",
-   "checked": null
+   "score": 0.64,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt19356262",
+   "matched": "Drive-Away Dolls (2024)"
   },
   "Dune: Part Two": {
    "score": 0.92,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt15239678",
+   "matched": "Dune: Part Two (2024)"
   },
   "Founders day": {
    "score": 0,
@@ -94,53 +123,73 @@
   },
   "Furiosa: A Mad Max Saga": {
    "score": 0.9,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt12037194",
+   "matched": "Furiosa: A Mad Max Saga (2024)"
   },
   "Ghostbusters: Frozen Empire": {
-   "score": 0.42,
-   "source": "workbook",
-   "checked": null
+   "score": 0.41,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt21235248",
+   "matched": "Ghostbusters: Frozen Empire (2024)"
   },
   "Gladiator II": {
-   "score": 0.71,
-   "source": "workbook",
-   "checked": null
+   "score": 0.7,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt9218128",
+   "matched": "Gladiator II (2024)"
   },
   "Godzilla x Kong: The New Empire": {
    "score": 0.54,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt14539740",
+   "matched": "Godzilla X Kong: The New Empire (2024)"
   },
   "Harold and the Purple Crayon": {
    "score": 0.28,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt1609486",
+   "matched": "Harold and the Purple Crayon (2024)"
   },
   "If": {
-   "score": 0.85,
-   "source": "workbook",
-   "checked": null
+   "score": 0.5,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt11152168",
+   "matched": "IF (2024)"
   },
   "Inside Out 2": {
    "score": 0.91,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt22022452",
+   "matched": "Inside Out 2 (2024)"
   },
   "It Ends With Us": {
    "score": 0.55,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt10655524",
+   "matched": "It Ends with Us (2024)"
   },
   "Joker: Folie à Deux": {
    "score": 0.31,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt11315808",
+   "matched": "Joker: Folie à Deux (2024)"
   },
   "Kingdom of the Planet of the Apes": {
    "score": 0.8,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt11389872",
+   "matched": "Kingdom of the Planet of the Apes (2024)"
   },
   "Kraven: The Hunter": {
    "score": 0.16,
@@ -149,8 +198,10 @@
   },
   "Kung Fu Panda 4": {
    "score": 0.71,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt21692408",
+   "matched": "Kung Fu Panda 4 (2024)"
   },
   "Lights out": {
    "score": 0.35,
@@ -159,8 +210,10 @@
   },
   "Lisa Frankenstein": {
    "score": 0.52,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt21188080",
+   "matched": "Lisa Frankenstein (2024)"
   },
   "Luca": {
    "score": 0.91,
@@ -168,14 +221,18 @@
    "checked": null
   },
   "Madame Web": {
-   "score": 0.11,
-   "source": "workbook",
-   "checked": null
+   "score": 0.1,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt11057302",
+   "matched": "Madame Web (2024)"
   },
   "Mean Girls": {
    "score": 0.69,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt11762114",
+   "matched": "Mean Girls (2024)"
   },
   "Memory": {
    "score": 0,
@@ -193,9 +250,11 @@
    "checked": null
   },
   "Mufasa: The Lion King": {
-   "score": 0.55,
-   "source": "workbook",
-   "checked": null
+   "score": 0.56,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt13186482",
+   "matched": "Mufasa: The Lion King (2024)"
   },
   "New Jordan Peele Film (2024)": {
    "score": 0,
@@ -203,19 +262,25 @@
    "checked": null
   },
   "Night Swim": {
-   "score": 0.2,
-   "source": "workbook",
-   "checked": null
+   "score": 0.19,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt9682428",
+   "matched": "Night Swim (2024)"
   },
   "Nosferatu": {
    "score": 0.85,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt5040012",
+   "matched": "Nosferatu (2024)"
   },
   "Sonic the Hedgehog 3": {
    "score": 0.86,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt18259086",
+   "matched": "Sonic the Hedgehog 3 (2024)"
   },
   "Soul": {
    "score": 0.95,
@@ -224,8 +289,10 @@
   },
   "Speak No Evil": {
    "score": 0.83,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt27534307",
+   "matched": "Speak No Evil (2024)"
   },
   "Spiderman: Beyond the Spiderverse": {
    "score": 0,
@@ -234,38 +301,52 @@
   },
   "The Beekeeper": {
    "score": 0.71,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt15314262",
+   "matched": "The Beekeeper (2024)"
   },
   "The Book of Clarence": {
-   "score": 0.66,
-   "source": "workbook",
-   "checked": null
+   "score": 0.65,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt22866358",
+   "matched": "The Book of Clarence (2024)"
   },
   "The Boys in the Boat": {
    "score": 0.57,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt1856080",
+   "matched": "The Boys in the Boat (2023)"
   },
   "The Color Purple": {
    "score": 0.81,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt1200263",
+   "matched": "The Color Purple (2023)"
   },
   "The Fall Guy": {
-   "score": 0.82,
-   "source": "workbook",
-   "checked": null
+   "score": 0.81,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt1684562",
+   "matched": "The Fall Guy (2024)"
   },
   "The Garfield Movie": {
-   "score": 0.37,
-   "source": "workbook",
-   "checked": null
+   "score": 0.36,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt5779228",
+   "matched": "The Garfield Movie (2024)"
   },
   "The Hunger Games: The Ballad of Songbirds & Snakes": {
    "score": 0.64,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt10545296",
+   "matched": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)"
   },
   "The Karate Kid": {
    "score": 0,
@@ -273,19 +354,25 @@
    "checked": null
   },
   "The Lord of the Rings: The War of the Rohirrim": {
-   "score": 0.45,
-   "source": "workbook",
-   "checked": null
+   "score": 0.49,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt14824600",
+   "matched": "The Lord of the Rings: The War of the Rohirrim (2024)"
   },
   "The Watchers": {
    "score": 0.32,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt26736843",
+   "matched": "The Watchers (2024)"
   },
   "Transformers One": {
    "score": 0.89,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt8864596",
+   "matched": "Transformers One (2024)"
   },
   "Turning Red": {
    "score": 0.95,
@@ -293,14 +380,18 @@
    "checked": null
   },
   "Venom: The Last Dance": {
-   "score": 0.41,
-   "source": "workbook",
-   "checked": null
+   "score": 0.4,
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt16366836",
+   "matched": "Venom: The Last Dance (2024)"
   },
   "Wicked": {
    "score": 0.88,
-   "source": "workbook",
-   "checked": null
+   "source": "omdb",
+   "checked": "2026-11-18",
+   "imdbId": "tt1262426",
+   "matched": "Wicked (2024)"
   },
   "Wolfs": {
    "score": 0,

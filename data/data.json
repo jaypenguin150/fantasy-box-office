@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17",
- "rtUpdated": "2026-11-17",
+ "updated": "2026-11-18",
+ "rtUpdated": "2026-11-18",
  "refreshDays": 10,
  "enforce": {
   "sequels": true,
@@ -13,7 +13,7 @@
  "movies": {
   "A Quiet Place: Day One": {
    "distributor": "Paramount Pictures",
-   "month": "Jun",
+   "month": "Fri",
    "grossDom": 138930553,
    "grossMex": 13278524,
    "franchise": true,
@@ -21,39 +21,39 @@
   },
   "Anyone But You": {
    "distributor": "Columbia Pictures",
-   "month": "Dec",
+   "month": "Fri",
    "grossDom": 63482283,
    "grossMex": 4911488,
    "franchise": false,
-   "rt": 0.54
+   "rt": 0.53
   },
   "Aquaman and the Lost Kingdom": {
    "distributor": "Warner Bros.",
-   "month": "Dec",
+   "month": "Fri",
    "grossDom": 48011513,
    "grossMex": 8744159,
    "franchise": true,
    "rt": 0.33
   },
   "Argylle": {
-   "distributor": "Universal Pictures International (UPI)",
-   "month": "Feb",
+   "distributor": "Universal Pictures",
+   "month": "Fri",
    "grossDom": 45207275,
    "grossMex": 1081665,
    "franchise": false,
-   "rt": 0.33
+   "rt": 0.32
   },
   "Arthur the King": {
    "distributor": "Lionsgate",
-   "month": "Mar",
+   "month": "Fri",
    "grossDom": 25049006,
    "grossMex": 4184171,
    "franchise": false,
-   "rt": 0.69
+   "rt": 0.71
   },
   "Bad Boys: Ride or Die": {
    "distributor": "Sony Pictures Releasing",
-   "month": "Jun",
+   "month": "Fri",
    "grossDom": 193573217,
    "grossMex": 14682601,
    "franchise": true,
@@ -69,7 +69,7 @@
   },
   "Beetlejuice Beetlejuice": {
    "distributor": "Warner Bros.",
-   "month": "Sep",
+   "month": "Fri",
    "grossDom": 294100435,
    "grossMex": 19319371,
    "franchise": true,
@@ -77,15 +77,15 @@
   },
   "Bob Marley: One Love": {
    "distributor": "Paramount Pictures",
-   "month": "Feb",
+   "month": "Wed",
    "grossDom": 96893170,
    "grossMex": 1571096,
    "franchise": false,
-   "rt": 0.44
+   "rt": 0.43
   },
   "Borderlands": {
    "distributor": "Lionsgate",
-   "month": "Aug",
+   "month": "Fri",
    "grossDom": 15482668,
    "grossMex": 2309,
    "franchise": false,
@@ -100,8 +100,8 @@
    "rt": 0
   },
   "Challengers": {
-   "distributor": "United Artists Releasing",
-   "month": "Apr",
+   "distributor": "Amazon MGM Studios",
+   "month": "Fri",
    "grossDom": 50119408,
    "grossMex": 2707608,
    "franchise": false,
@@ -109,7 +109,7 @@
   },
   "Civil War": {
    "distributor": "A24",
-   "month": "Apr",
+   "month": "Fri",
    "grossDom": 68603430,
    "grossMex": 2802374,
    "franchise": false,
@@ -117,15 +117,15 @@
   },
   "Deadpool & Wolverine": {
    "distributor": "Walt Disney Studios Motion Pictures",
-   "month": "Jul",
+   "month": "Fri",
    "grossDom": 636745858,
    "grossMex": 43529290,
    "franchise": true,
-   "rt": 0.74
+   "rt": 0.77
   },
   "Despicable Me 4": {
    "distributor": "Universal Pictures",
-   "month": "Jul",
+   "month": "Wed",
    "grossDom": 361004205,
    "grossMex": 39333300,
    "franchise": true,
@@ -133,15 +133,15 @@
   },
   "Drive-Away Dolls": {
    "distributor": "Focus Features",
-   "month": "Feb",
+   "month": "Fri",
    "grossDom": 5028215,
    "grossMex": 0,
    "franchise": false,
-   "rt": 0.63
+   "rt": 0.64
   },
   "Dune: Part Two": {
    "distributor": "Warner Bros.",
-   "month": "Mar",
+   "month": "Fri",
    "grossDom": 282144358,
    "grossMex": 3176905,
    "franchise": true,
@@ -157,7 +157,7 @@
   },
   "Furiosa: A Mad Max Saga": {
    "distributor": "Warner Bros.",
-   "month": "May",
+   "month": "Fri",
    "grossDom": 67475791,
    "grossMex": 5509149,
    "franchise": true,
@@ -165,23 +165,23 @@
   },
   "Ghostbusters: Frozen Empire": {
    "distributor": "Sony Pictures Releasing",
-   "month": "Mar",
+   "month": "Fri",
    "grossDom": 113376590,
    "grossMex": 7504505,
    "franchise": true,
-   "rt": 0.42
+   "rt": 0.41
   },
   "Gladiator II": {
    "distributor": "Paramount Pictures",
-   "month": "Nov",
+   "month": "Fri",
    "grossDom": 164554921,
    "grossMex": 16591252,
    "franchise": true,
-   "rt": 0.71
+   "rt": 0.7
   },
   "Godzilla x Kong: The New Empire": {
    "distributor": "Warner Bros.",
-   "month": "Mar",
+   "month": "Fri",
    "grossDom": 196350016,
    "grossMex": 33522327,
    "franchise": true,
@@ -189,7 +189,7 @@
   },
   "Harold and the Purple Crayon": {
    "distributor": "Columbia Pictures",
-   "month": "Aug",
+   "month": "Fri",
    "grossDom": 17640924,
    "grossMex": 819123,
    "franchise": false,
@@ -197,15 +197,15 @@
   },
   "If": {
    "distributor": "Paramount Pictures",
-   "month": "May",
+   "month": "Fri",
    "grossDom": 111149917,
    "grossMex": 9250289,
    "franchise": false,
-   "rt": 0.85
+   "rt": 0.5
   },
   "Inside Out 2": {
    "distributor": "Walt Disney Studios Motion Pictures",
-   "month": "Jun",
+   "month": "Fri",
    "grossDom": 652980194,
    "grossMex": 102299578,
    "franchise": true,
@@ -213,7 +213,7 @@
   },
   "It Ends With Us": {
    "distributor": "Sony Pictures Releasing",
-   "month": "Aug",
+   "month": "Fri",
    "grossDom": 148518266,
    "grossMex": 13541962,
    "franchise": false,
@@ -221,7 +221,7 @@
   },
   "Joker: Folie à Deux": {
    "distributor": "Warner Bros.",
-   "month": "Oct",
+   "month": "Fri",
    "grossDom": 58300287,
    "grossMex": 8100994,
    "franchise": true,
@@ -229,7 +229,7 @@
   },
   "Kingdom of the Planet of the Apes": {
    "distributor": "20th Century Studios",
-   "month": "May",
+   "month": "Fri",
    "grossDom": 171130165,
    "grossMex": 19933246,
    "franchise": true,
@@ -245,7 +245,7 @@
   },
   "Kung Fu Panda 4": {
    "distributor": "Universal Pictures",
-   "month": "Mar",
+   "month": "Fri",
    "grossDom": 193590620,
    "grossMex": 29064534,
    "franchise": true,
@@ -261,7 +261,7 @@
   },
   "Lisa Frankenstein": {
    "distributor": "Focus Features",
-   "month": "Feb",
+   "month": "Fri",
    "grossDom": 9774285,
    "grossMex": 0,
    "franchise": false,
@@ -277,15 +277,15 @@
   },
   "Madame Web": {
    "distributor": "Columbia Pictures",
-   "month": "Feb",
+   "month": "Wed",
    "grossDom": 43817106,
    "grossMex": 4222810,
    "franchise": false,
-   "rt": 0.11
+   "rt": 0.1
   },
   "Mean Girls": {
    "distributor": "Paramount Pictures",
-   "month": "Jan",
+   "month": "Fri",
    "grossDom": 72404248,
    "grossMex": 3074198,
    "franchise": false,
@@ -309,19 +309,19 @@
   },
   "Migration": {
    "distributor": "Universal Pictures",
-   "month": "Dec",
-   "grossDom": 73202330,
+   "month": "Fri",
+   "grossDom": 73526925,
    "grossMex": 3417706,
    "franchise": false,
    "rt": 0.73
   },
   "Mufasa: The Lion King": {
    "distributor": "Walt Disney Studios Motion Pictures",
-   "month": "Dec",
+   "month": "Fri",
    "grossDom": 128143945,
    "grossMex": 15553277,
    "franchise": true,
-   "rt": 0.55
+   "rt": 0.56
   },
   "New Jordan Peele Film (2024)": {
    "distributor": "Not Released Yet",
@@ -332,16 +332,16 @@
    "rt": 0
   },
   "Night Swim": {
-   "distributor": "Universal Pictures International (UPI)",
-   "month": "Jan",
+   "distributor": "Universal Pictures",
+   "month": "Fri",
    "grossDom": 32494740,
    "grossMex": 2337617,
    "franchise": false,
-   "rt": 0.2
+   "rt": 0.19
   },
   "Nosferatu": {
    "distributor": "Focus Features",
-   "month": "Dec",
+   "month": "Wed",
    "grossDom": 48120015,
    "grossMex": 0,
    "franchise": false,
@@ -349,7 +349,7 @@
   },
   "Sonic the Hedgehog 3": {
    "distributor": "Paramount Pictures",
-   "month": "Dec",
+   "month": "Fri",
    "grossDom": 151558894,
    "grossMex": 10300000,
    "franchise": true,
@@ -365,7 +365,7 @@
   },
   "Speak No Evil": {
    "distributor": "Universal Pictures",
-   "month": "Sep",
+   "month": "Fri",
    "grossDom": 36931420,
    "grossMex": 0,
    "franchise": true,
@@ -381,7 +381,7 @@
   },
   "The Beekeeper": {
    "distributor": "Metro-Goldwyn-Mayer (MGM)",
-   "month": "Jan",
+   "month": "Fri",
    "grossDom": 66220535,
    "grossMex": 3362609,
    "franchise": false,
@@ -389,15 +389,15 @@
   },
   "The Book of Clarence": {
    "distributor": "Sony Pictures Releasing",
-   "month": "Jan",
+   "month": "Fri",
    "grossDom": 6132813,
    "grossMex": 0,
    "franchise": false,
-   "rt": 0.66
+   "rt": 0.65
   },
   "The Boys in the Boat": {
    "distributor": "Amazon MGM Studios",
-   "month": "Dec",
+   "month": "Mon",
    "grossDom": 30642834,
    "grossMex": 0,
    "franchise": false,
@@ -405,7 +405,7 @@
   },
   "The Color Purple": {
    "distributor": "Warner Bros.",
-   "month": "Dec",
+   "month": "Mon",
    "grossDom": 16571549,
    "grossMex": 0,
    "franchise": false,
@@ -413,23 +413,23 @@
   },
   "The Fall Guy": {
    "distributor": "Universal Pictures",
-   "month": "May",
+   "month": "Fri",
    "grossDom": 92900355,
    "grossMex": 3048445,
    "franchise": false,
-   "rt": 0.82
+   "rt": 0.81
   },
   "The Garfield Movie": {
    "distributor": "Sony Pictures Releasing",
-   "month": "May",
+   "month": "Fri",
    "grossDom": 91956547,
    "grossMex": 18367813,
    "franchise": false,
-   "rt": 0.37
+   "rt": 0.36
   },
   "The Hunger Games: The Ballad of Songbirds & Snakes": {
    "distributor": "Lionsgate",
-   "month": "Nov",
+   "month": "Fri",
    "grossDom": 6630969,
    "grossMex": 0,
    "franchise": true,
@@ -445,15 +445,15 @@
   },
   "The Lord of the Rings: The War of the Rohirrim": {
    "distributor": "Warner Bros.",
-   "month": "Dec",
+   "month": "Fri",
    "grossDom": 8755502,
    "grossMex": 134145,
    "franchise": true,
-   "rt": 0.45
+   "rt": 0.49
   },
   "The Watchers": {
    "distributor": "Warner Bros.",
-   "month": "Jun",
+   "month": "Fri",
    "grossDom": 19071404,
    "grossMex": 362942,
    "franchise": false,
@@ -461,7 +461,7 @@
   },
   "Transformers One": {
    "distributor": "Paramount Pictures",
-   "month": "Sep",
+   "month": "Fri",
    "grossDom": 59054170,
    "grossMex": 2534531,
    "franchise": true,
@@ -477,15 +477,15 @@
   },
   "Venom: The Last Dance": {
    "distributor": "Sony Pictures Releasing",
-   "month": "Oct",
+   "month": "Fri",
    "grossDom": 139733580,
    "grossMex": 19141269,
    "franchise": true,
-   "rt": 0.41
+   "rt": 0.4
   },
   "Wicked": {
    "distributor": "Universal Pictures",
-   "month": "Nov",
+   "month": "Fri",
    "grossDom": 432943285,
    "grossMex": 9576374,
    "franchise": false,

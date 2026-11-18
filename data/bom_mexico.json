@@ -1,60 +1,59 @@
 {
- "fetchedAt": null,
- "importedAt": "2026-11-17",
+ "fetchedAt": "2026-11-18T01:28:51+00:00",
  "source": "https://www.boxofficemojo.com/year/2024/?area=MX",
  "rows": [
   {
    "title": "Inside Out 2",
    "gross": 102299578,
-   "releaseDate": "Jun 13",
+   "releaseDate": "Thu Jun 13",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Deadpool & Wolverine",
    "gross": 43529290,
-   "releaseDate": "Jul 25",
+   "releaseDate": "Thu Jul 25",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Despicable Me 4",
    "gross": 39333300,
-   "releaseDate": "Jul 4",
+   "releaseDate": "Thu Jul 4",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
-   "title": "Godzilla x Kong: The New Empire",
+   "title": "Godzilla X Kong: The New Empire",
    "gross": 33522327,
-   "releaseDate": "Mar 29",
+   "releaseDate": "Fri Mar 29",
    "distributor": "Warner Bros."
   },
   {
    "title": "Kung Fu Panda 4",
    "gross": 29064534,
-   "releaseDate": "Mar 14",
+   "releaseDate": "Thu Mar 14",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Moana 2",
    "gross": 28230417,
-   "releaseDate": "Nov 28",
+   "releaseDate": "Thu Nov 28",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "The Wild Robot",
    "gross": 20251586,
-   "releaseDate": "Sep 26",
+   "releaseDate": "Thu Sep 26",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Kingdom of the Planet of the Apes",
    "gross": 19933246,
-   "releaseDate": "May 10",
+   "releaseDate": "Fri May 10",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Beetlejuice Beetlejuice",
    "gross": 19319371,
-   "releaseDate": "Sep 6",
+   "releaseDate": "Fri Sep 6",
    "distributor": "Warner Bros."
   },
   {
@@ -66,85 +65,85 @@
   {
    "title": "The Garfield Movie",
    "gross": 18367813,
-   "releaseDate": "May 3",
+   "releaseDate": "Fri May 3",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Gladiator II",
    "gross": 16591252,
-   "releaseDate": "Nov 14",
+   "releaseDate": "Thu Nov 14",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "Mufasa: The Lion King",
    "gross": 15553277,
-   "releaseDate": "Dec 19",
+   "releaseDate": "Thu Dec 19",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Bad Boys: Ride or Die",
    "gross": 14682601,
-   "releaseDate": "Jun 7",
+   "releaseDate": "Fri Jun 7",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "It Ends with Us",
    "gross": 13541962,
-   "releaseDate": "Aug 8",
+   "releaseDate": "Thu Aug 8",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "A Quiet Place: Day One",
    "gross": 13278524,
-   "releaseDate": "Jun 27",
+   "releaseDate": "Thu Jun 27",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "Sonic the Hedgehog 3",
    "gross": 10300000,
-   "releaseDate": "Dec 26",
+   "releaseDate": "Thu Dec 26",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "Wicked",
    "gross": 9576374,
-   "releaseDate": "Nov 21",
+   "releaseDate": "Thu Nov 21",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "IF",
    "gross": 9250289,
-   "releaseDate": "May 16",
+   "releaseDate": "Thu May 16",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "The Substance",
    "gross": 9172321,
-   "releaseDate": "Sep 19",
+   "releaseDate": "Thu Sep 19",
    "distributor": "MUBI"
   },
   {
    "title": "Aquaman and the Lost Kingdom",
    "gross": 8744159,
-   "releaseDate": "Dec 22",
+   "releaseDate": "Fri Dec 22",
    "distributor": "Warner Bros."
   },
   {
    "title": "Alien: Romulus",
    "gross": 8322115,
-   "releaseDate": "Aug 15",
+   "releaseDate": "Thu Aug 15",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Joker: Folie à Deux",
    "gross": 8100994,
-   "releaseDate": "Oct 2",
+   "releaseDate": "Wed Oct 2",
    "distributor": "Warner Bros."
   },
   {
    "title": "Ghostbusters: Frozen Empire",
    "gross": 7504505,
-   "releaseDate": "Mar 22",
+   "releaseDate": "Fri Mar 22",
    "distributor": "Sony Pictures Releasing"
   },
   {
@@ -156,73 +155,73 @@
   {
    "title": "Twisters",
    "gross": 6863663,
-   "releaseDate": "Jul 18",
+   "releaseDate": "Thu Jul 18",
    "distributor": "Warner Bros."
   },
   {
    "title": "Wonka",
    "gross": 6500820,
-   "releaseDate": "Dec 8",
+   "releaseDate": "Fri Dec 8",
    "distributor": "Warner Bros."
   },
   {
    "title": "The First Omen",
    "gross": 5811132,
-   "releaseDate": "Apr 5",
+   "releaseDate": "Fri Apr 5",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Poor Things",
    "gross": 5510336,
-   "releaseDate": "Jan 26",
+   "releaseDate": "Fri Jan 26",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Furiosa: A Mad Max Saga",
    "gross": 5509149,
-   "releaseDate": "May 24",
+   "releaseDate": "Fri May 24",
    "distributor": "Warner Bros."
   },
   {
    "title": "Anyone But You",
    "gross": 4911488,
-   "releaseDate": "Jan 19",
+   "releaseDate": "Fri Jan 19",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "We Live in Time",
    "gross": 4832446,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Imagem Films"
   },
   {
    "title": "Demon Slayer: Kimetsu No Yaiba - To the Hashira Training",
    "gross": 4427233,
-   "releaseDate": "Feb 23",
+   "releaseDate": "Fri Feb 23",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "El Roomie",
    "gross": 4236767,
-   "releaseDate": "Jan 19",
+   "releaseDate": "Fri Jan 19",
    "distributor": "Videocine"
   },
   {
    "title": "Madame Web",
    "gross": 4222810,
-   "releaseDate": "Feb 16",
+   "releaseDate": "Fri Feb 16",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Arthur the King",
    "gross": 4184171,
-   "releaseDate": "Apr 4",
+   "releaseDate": "Thu Apr 4",
    "distributor": "Diamond Films"
   },
   {
    "title": "Godzilla Minus One",
    "gross": 3604297,
-   "releaseDate": "Dec 29",
+   "releaseDate": "Fri Dec 29",
    "distributor": "Cinépolis Distribución"
   },
   {
@@ -234,13 +233,13 @@
   {
    "title": "Migration",
    "gross": 3417706,
-   "releaseDate": "Dec 14",
+   "releaseDate": "Thu Dec 14",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "The Beekeeper",
    "gross": 3362609,
-   "releaseDate": "Jan 12",
+   "releaseDate": "Fri Jan 12",
    "distributor": "Diamond Films"
   },
   {
@@ -252,67 +251,67 @@
   {
    "title": "Dune: Part Two",
    "gross": 3176905,
-   "releaseDate": "Mar 1",
+   "releaseDate": "Fri Mar 1",
    "distributor": "Warner Bros."
   },
   {
    "title": "Mean Girls",
    "gross": 3074198,
-   "releaseDate": "Jan 11",
+   "releaseDate": "Thu Jan 11",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "The Fall Guy",
    "gross": 3048445,
-   "releaseDate": "May 3",
+   "releaseDate": "Fri May 3",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Tarot",
    "gross": 2977128,
-   "releaseDate": "May 17",
+   "releaseDate": "Fri May 17",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Kraven the Hunter",
    "gross": 2962358,
-   "releaseDate": "Dec 11",
+   "releaseDate": "Wed Dec 11",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Civil War",
    "gross": 2802374,
-   "releaseDate": "Apr 18",
+   "releaseDate": "Thu Apr 18",
    "distributor": "Diamond Films"
   },
   {
    "title": "Challengers",
    "gross": 2707608,
-   "releaseDate": "Apr 26",
+   "releaseDate": "Fri Apr 26",
    "distributor": "Metro-Goldwyn-Mayer (MGM)"
   },
   {
    "title": "Coraline15th Anniversary",
    "gross": 2640334,
-   "releaseDate": "Aug 15",
+   "releaseDate": "Thu Aug 15",
    "distributor": "Cinépolis Distribución"
   },
   {
    "title": "SUGA: Agust D Tour 'D-DAY' the Movie",
    "gross": 2565504,
-   "releaseDate": "Apr 12",
+   "releaseDate": "Fri Apr 12",
    "distributor": "-"
   },
   {
    "title": "Transformers One",
    "gross": 2534531,
-   "releaseDate": "Sep 13",
+   "releaseDate": "Fri Sep 13",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "Late Night with the Devil",
    "gross": 2527623,
-   "releaseDate": "Aug 1",
+   "releaseDate": "Thu Aug 1",
    "distributor": "Diamond Films"
   },
   {
@@ -324,127 +323,121 @@
   {
    "title": "Red One",
    "gross": 2400000,
-   "releaseDate": "Nov 7",
+   "releaseDate": "Thu Nov 7",
    "distributor": "Warner Bros."
   },
   {
    "title": "Night Swim",
    "gross": 2337617,
-   "releaseDate": "Jan 4",
+   "releaseDate": "Thu Jan 4",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "One Life",
    "gross": 2251935,
-   "releaseDate": "Mar 14",
+   "releaseDate": "Thu Mar 14",
    "distributor": "Sun Distribution"
   },
   {
-   "title": "Jugaremos en el bosque",
+   "title": "Let's Play in the Woods",
    "gross": 2182147,
-   "releaseDate": "May 3",
+   "releaseDate": "Fri May 3",
    "distributor": "Videocine"
   },
   {
    "title": "The Boy and the Heron",
    "gross": 2050828,
-   "releaseDate": "Dec 29",
+   "releaseDate": "Fri Dec 29",
    "distributor": "Cine Canibal"
   },
   {
    "title": "Almost Paradise",
    "gross": 2026918,
-   "releaseDate": "Sep 13",
+   "releaseDate": "Fri Sep 13",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Abigail",
    "gross": 1701031,
-   "releaseDate": "Apr 18",
+   "releaseDate": "Thu Apr 18",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Immaculate",
    "gross": 1693547,
-   "releaseDate": "May 30",
-   "distributor": "Diamond Films"
-  },
-  {
-   "title": "Longlegs",
-   "gross": 1680463,
-   "releaseDate": "Aug 29",
+   "releaseDate": "Thu May 30",
    "distributor": "Diamond Films"
   },
   {
    "title": "Anyone But Her",
    "gross": 1664593,
-   "releaseDate": "Feb 16",
+   "releaseDate": "Fri Feb 16",
    "distributor": "Cinépolis Distribución"
   },
   {
    "title": "Bob Marley: One Love",
    "gross": 1571096,
-   "releaseDate": "Feb 15",
+   "releaseDate": "Thu Feb 15",
    "distributor": "Paramount Pictures International"
   },
   {
    "title": "Trap",
    "gross": 1428876,
-   "releaseDate": "Aug 8",
+   "releaseDate": "Thu Aug 8",
    "distributor": "Warner Bros."
   },
   {
    "title": "Spy x Family Code: White",
    "gross": 1413888,
-   "releaseDate": "Apr 26",
+   "releaseDate": "Fri Apr 26",
    "distributor": "Crunchyroll"
   },
   {
    "title": "Baghead",
    "gross": 1401626,
-   "releaseDate": "Feb 9",
-   "distributor": "-"
+   "releaseDate": "Fri Feb 9",
+   "distributor": "Imagem Filmes"
   },
   {
    "title": "Priscilla",
    "gross": 1218030,
-   "releaseDate": "Dec 29",
+   "releaseDate": "Fri Dec 29",
    "distributor": "MUBI"
   },
   {
    "title": "The Exorcism",
    "gross": 1212662,
-   "releaseDate": "Aug 1",
-   "distributor": "-"
+   "releaseDate": "Thu Aug 1",
+   "distributor": "Imagem Films"
   },
   {
    "title": "The Forbidden Play",
    "gross": 1183097,
-   "releaseDate": "Jul 18",
+   "releaseDate": "Thu Jul 18",
    "distributor": "Paramount Pictures"
   },
   {
    "title": "Argylle",
    "gross": 1081665,
-   "releaseDate": "Feb 1",
+   "releaseDate": "Thu Feb 1",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Noche De Bodas",
    "gross": 1070753,
-   "releaseDate": "Mar 8",
+   "releaseDate": "Fri Mar 8",
    "distributor": "Videocine"
   },
   {
-   "title": "Turno Nocturno",
+   "title": "Night Shift",
    "gross": 1066750,
-   "releaseDate": "Dec 5",
+   "releaseDate": "Thu Dec 5",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Ferrari",
    "gross": 1010437,
-   "releaseDate": "Feb 23",
+   "releaseDate": "Fri Feb 23",
    "distributor": "Diamond Films"
   },
   {
@@ -456,61 +449,67 @@
   {
    "title": "The Strangers: Chapter 1",
    "gross": 955165,
-   "releaseDate": "Jun 13",
+   "releaseDate": "Thu Jun 13",
    "distributor": "Corazón Films"
   },
   {
    "title": "Concrete Utopia",
    "gross": 939052,
-   "releaseDate": "Jan 26",
+   "releaseDate": "Fri Jan 26",
    "distributor": "Corazón Films"
   },
   {
    "title": "Back to Black",
    "gross": 886741,
-   "releaseDate": "Apr 11",
+   "releaseDate": "Thu Apr 11",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "The Bikeriders",
    "gross": 855916,
-   "releaseDate": "Jun 20",
+   "releaseDate": "Thu Jun 20",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Never Let Go",
    "gross": 845966,
-   "releaseDate": "Sep 26",
+   "releaseDate": "Thu Sep 26",
    "distributor": "Corazón Films"
+  },
+  {
+   "title": "Longlegs",
+   "gross": 828721,
+   "releaseDate": "Thu Aug 29",
+   "distributor": "Diamond Films"
   },
   {
    "title": "Harold and the Purple Crayon",
    "gross": 819123,
-   "releaseDate": "Aug 1",
+   "releaseDate": "Thu Aug 1",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "The Holdovers",
    "gross": 798977,
-   "releaseDate": "Jan 18",
+   "releaseDate": "Thu Jan 18",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Fly Me to the Moon",
    "gross": 798487,
-   "releaseDate": "Jul 11",
+   "releaseDate": "Thu Jul 11",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Ordinary Angels",
    "gross": 780977,
-   "releaseDate": "May 31",
+   "releaseDate": "Fri May 31",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Heretic",
    "gross": 731733,
-   "releaseDate": "Nov 21",
+   "releaseDate": "Thu Nov 21",
    "distributor": "Diamond Films"
   },
   {
@@ -522,74 +521,74 @@
   {
    "title": "The Forge",
    "gross": 708868,
-   "releaseDate": "Aug 29",
+   "releaseDate": "Thu Aug 29",
    "distributor": "-"
   },
   {
    "title": "Haikyu!! The Dumpster Battle",
    "gross": 678199,
-   "releaseDate": "May 31",
+   "releaseDate": "Fri May 31",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "The Crow",
    "gross": 670167,
-   "releaseDate": "Aug 22",
+   "releaseDate": "Thu Aug 22",
    "distributor": "California Filmes"
   },
   {
    "title": "Bad Actor",
    "gross": 648331,
-   "releaseDate": "Apr 5",
+   "releaseDate": "Fri Apr 5",
    "distributor": "Cinépolis Distribución"
   },
   {
    "title": "Next Goal Wins",
    "gross": 639063,
-   "releaseDate": "Dec 15",
+   "releaseDate": "Fri Dec 15",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Imaginary",
    "gross": 614096,
-   "releaseDate": "Mar 14",
+   "releaseDate": "Thu Mar 14",
    "distributor": "Corazón Films"
   },
   {
    "title": "No Way Up",
    "gross": 588914,
-   "releaseDate": "Mar 8",
+   "releaseDate": "Fri Mar 8",
    "distributor": "Diamond Films"
   },
   {
    "title": "Turning Red",
    "gross": 574654,
-   "releaseDate": "Feb 9",
+   "releaseDate": "Fri Feb 9",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Mothers' Instinct",
    "gross": 565641,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Supra"
   },
   {
    "title": "Freelance",
    "gross": 562972,
-   "releaseDate": "Feb 9",
+   "releaseDate": "Fri Feb 9",
    "distributor": "Corazón Films"
   },
   {
    "title": "MaXXXine",
    "gross": 559965,
-   "releaseDate": "Jul 4",
+   "releaseDate": "Thu Jul 4",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Land of Bad",
    "gross": 554482,
-   "releaseDate": "Mar 15",
-   "distributor": "-"
+   "releaseDate": "Fri Mar 15",
+   "distributor": "Imagem Filmes"
   },
   {
    "title": "Exhuma",
@@ -600,61 +599,61 @@
   {
    "title": "My Hero Academia: You're Next",
    "gross": 539402,
-   "releaseDate": "Oct 11",
+   "releaseDate": "Fri Oct 11",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Sleeping Dogs",
    "gross": 518329,
-   "releaseDate": "Apr 12",
-   "distributor": "-"
+   "releaseDate": "Fri Apr 12",
+   "distributor": "Imagem Filmes"
   },
   {
    "title": "10 Lives",
    "gross": 511244,
-   "releaseDate": "Apr 12",
+   "releaseDate": "Fri Apr 12",
    "distributor": "Corazón Films"
   },
   {
    "title": "Hachiko",
    "gross": 470203,
-   "releaseDate": "May 24",
-   "distributor": "Tulip Pictures"
+   "releaseDate": "Fri May 24",
+   "distributor": "Tulip Pictures México"
   },
   {
-   "title": "The Count of Monte-Cristo",
+   "title": "The Count of Monte Cristo",
    "gross": 442620,
-   "releaseDate": "Oct 17",
+   "releaseDate": "Thu Oct 17",
    "distributor": "Zima Entertainment"
   },
   {
    "title": "The Wingwalker",
    "gross": 440857,
-   "releaseDate": "Oct 10",
+   "releaseDate": "Thu Oct 10",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Blink Twice",
    "gross": 440000,
-   "releaseDate": "Aug 22",
+   "releaseDate": "Thu Aug 22",
    "distributor": "Warner Bros."
   },
   {
    "title": "Hellboy: The Crooked Man",
    "gross": 420002,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Imagem Films"
   },
   {
    "title": "Alice in Terrorland",
    "gross": 416404,
-   "releaseDate": "Mar 8",
+   "releaseDate": "Fri Mar 8",
    "distributor": "-"
   },
   {
    "title": "Woman of the Hour",
    "gross": 409738,
-   "releaseDate": "Oct 11",
+   "releaseDate": "Fri Oct 11",
    "distributor": "Diamond Films"
   },
   {
@@ -670,7 +669,7 @@
    "distributor": "Warner Bros."
   },
   {
-   "title": "GHOST: Rite Here Rite Now",
+   "title": "Ghost: Rite Here Rite Now",
    "gross": 331337,
    "releaseDate": "-",
    "distributor": "-"
@@ -678,73 +677,73 @@
   {
    "title": "The Jack in the Box Rises",
    "gross": 330451,
-   "releaseDate": "Apr 12",
-   "distributor": "-"
+   "releaseDate": "Fri Apr 12",
+   "distributor": "Supra"
   },
   {
    "title": "When Evil Lurks",
    "gross": 327845,
-   "releaseDate": "Jan 12",
+   "releaseDate": "Fri Jan 12",
    "distributor": "Cinépolis Distribución"
   },
   {
    "title": "57 Seconds",
    "gross": 327077,
-   "releaseDate": "Feb 23",
-   "distributor": "-"
+   "releaseDate": "Fri Feb 23",
+   "distributor": "Supra"
   },
   {
-   "title": "El Apocalipsis de San Juan",
+   "title": "The Apocalypse of St. John",
    "gross": 316876,
-   "releaseDate": "Oct 17",
+   "releaseDate": "Thu Oct 17",
    "distributor": "CNMG Distribución"
   },
   {
    "title": "Five Nights at Freddy's",
    "gross": 310399,
-   "releaseDate": "Oct 27",
+   "releaseDate": "Fri Oct 27",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Something in the Water",
    "gross": 308662,
-   "releaseDate": "Jun 7",
+   "releaseDate": "Fri Jun 7",
    "distributor": "Zima Entertainment"
   },
   {
    "title": "Canta Y No Llores",
    "gross": 289773,
-   "releaseDate": "Mar 22",
+   "releaseDate": "Fri Mar 22",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Anatomy of a Fall",
    "gross": 285798,
-   "releaseDate": "Feb 2",
+   "releaseDate": "Fri Feb 2",
    "distributor": "Diamond Films"
   },
   {
    "title": "Amelia's Children",
    "gross": 283784,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Imagem Filmes"
   },
   {
    "title": "Godless: The Eastfield Exorcism",
    "gross": 279634,
-   "releaseDate": "Apr 26",
+   "releaseDate": "Fri Apr 26",
    "distributor": "-"
   },
   {
    "title": "Kinds of Kindness",
    "gross": 278520,
-   "releaseDate": "Aug 22",
+   "releaseDate": "Thu Aug 22",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Niko: Beyond the Northern Lights",
    "gross": 248931,
-   "releaseDate": "Dec 12",
+   "releaseDate": "Thu Dec 12",
    "distributor": "Zima Entertainment"
   },
   {
@@ -756,31 +755,31 @@
   {
    "title": "Napoleon",
    "gross": 244937,
-   "releaseDate": "Nov 24",
+   "releaseDate": "Fri Nov 24",
    "distributor": "Sony Pictures Releasing"
   },
   {
    "title": "Robot Dreams",
    "gross": 243894,
-   "releaseDate": "Mar 8",
+   "releaseDate": "Fri Mar 8",
    "distributor": "Cine Canibal"
   },
   {
    "title": "My Penguin Friend",
    "gross": 243768,
-   "releaseDate": "Oct 3",
+   "releaseDate": "Thu Oct 3",
    "distributor": "Corazón Films"
   },
   {
    "title": "Soul",
    "gross": 243114,
-   "releaseDate": "Jan 12",
+   "releaseDate": "Fri Jan 12",
    "distributor": "Walt Disney Pictures"
   },
   {
-   "title": "The Three Musketeers - Part II: Milady",
+   "title": "The Three Musketeers: Milady",
    "gross": 242840,
-   "releaseDate": "Jan 5",
+   "releaseDate": "Fri Jan 5",
    "distributor": "Zima Entertainment"
   },
   {
@@ -793,7 +792,7 @@
    "title": "Dragonkeeper",
    "gross": 217835,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Imagem Films"
   },
   {
    "title": "Megalopolis",
@@ -804,19 +803,19 @@
   {
    "title": "Flashover",
    "gross": 211591,
-   "releaseDate": "May 31",
-   "distributor": "-"
+   "releaseDate": "Fri May 31",
+   "distributor": "Supra"
   },
   {
    "title": "Firebrand",
    "gross": 186834,
-   "releaseDate": "Oct 3",
-   "distributor": "-"
+   "releaseDate": "Thu Oct 3",
+   "distributor": "Vértice 360"
   },
   {
    "title": "Love Lies Bleeding",
    "gross": 184927,
-   "releaseDate": "May 1",
+   "releaseDate": "Wed May 1",
    "distributor": "Cine Canibal"
   },
   {
@@ -828,67 +827,67 @@
   {
    "title": "Past Lives",
    "gross": 181179,
-   "releaseDate": "Feb 1",
+   "releaseDate": "Thu Feb 1",
    "distributor": "Zima Entertainment"
   },
   {
    "title": "V de Victor",
    "gross": 168579,
-   "releaseDate": "May 17",
+   "releaseDate": "Fri May 17",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "The Zone of Interest",
    "gross": 168467,
-   "releaseDate": "Feb 15",
+   "releaseDate": "Thu Feb 15",
    "distributor": "Sun Media"
   },
   {
    "title": "Wish",
    "gross": 168250,
-   "releaseDate": "Nov 24",
+   "releaseDate": "Fri Nov 24",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Oppenheimer",
    "gross": 166717,
-   "releaseDate": "Jul 20",
+   "releaseDate": "Thu Jul 20",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Sting",
    "gross": 159292,
-   "releaseDate": "Dec 18",
+   "releaseDate": "Wed Dec 18",
    "distributor": "Diamond Films"
   },
   {
    "title": "All of Us Strangers",
    "gross": 151199,
-   "releaseDate": "Feb 29",
+   "releaseDate": "Thu Feb 29",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "Disappear Completely",
    "gross": 149825,
-   "releaseDate": "Oct 20",
+   "releaseDate": "Fri Oct 20",
    "distributor": "Manticora Distribucion"
   },
   {
    "title": "Luca",
    "gross": 138849,
-   "releaseDate": "Mar 29",
+   "releaseDate": "Fri Mar 29",
    "distributor": "Walt Disney Pictures"
   },
   {
    "title": "The Apprentice",
    "gross": 135099,
-   "releaseDate": "Oct 24",
+   "releaseDate": "Thu Oct 24",
    "distributor": "Diamond Films"
   },
   {
    "title": "The Lord of the Rings: The War of the Rohirrim",
    "gross": 134145,
-   "releaseDate": "Dec 5",
+   "releaseDate": "Thu Dec 5",
    "distributor": "Warner Bros."
   },
   {
@@ -900,26 +899,26 @@
   {
    "title": "The Room Next Door",
    "gross": 124447,
-   "releaseDate": "Dec 19",
+   "releaseDate": "Thu Dec 19",
    "distributor": "Warner Bros."
   },
   {
    "title": "White Bird",
    "gross": 109304,
-   "releaseDate": "Dec 5",
+   "releaseDate": "Thu Dec 5",
    "distributor": "-"
   },
   {
    "title": "The Djinn",
    "gross": 109304,
-   "releaseDate": "Dec 12",
+   "releaseDate": "Thu Dec 12",
    "distributor": "-"
   },
   {
    "title": "Cabrini",
    "gross": 108075,
-   "releaseDate": "May 6",
-   "distributor": "Angel Studios"
+   "releaseDate": "Mon May 6",
+   "distributor": "Angel"
   },
   {
    "title": "Jeanne du Barry",
@@ -930,14 +929,14 @@
   {
    "title": "Sign Here",
    "gross": 101319,
-   "releaseDate": "May 10",
+   "releaseDate": "Fri May 10",
    "distributor": "-"
   },
   {
    "title": "Run Rabbit Run",
    "gross": 88653,
    "releaseDate": "-",
-   "distributor": "-"
+   "distributor": "Supra"
   },
   {
    "title": "Elevation",
@@ -948,7 +947,7 @@
   {
    "title": "Cuckoo",
    "gross": 79682,
-   "releaseDate": "Aug 15",
+   "releaseDate": "Thu Aug 15",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
@@ -960,7 +959,7 @@
   {
    "title": "Trolls Band Together",
    "gross": 73298,
-   "releaseDate": "Oct 26",
+   "releaseDate": "Thu Oct 26",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
@@ -972,43 +971,43 @@
   {
    "title": "Problemista",
    "gross": 54929,
-   "releaseDate": "Jul 18",
+   "releaseDate": "Thu Jul 18",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "The Iron Claw",
    "gross": 26145,
-   "releaseDate": "Mar 21",
+   "releaseDate": "Thu Mar 21",
    "distributor": "Zima Entertainment"
   },
   {
    "title": "Piece by Piece",
    "gross": 16062,
-   "releaseDate": "Dec 12",
+   "releaseDate": "Thu Dec 12",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Minions: The Rise of Gru",
    "gross": 7631,
-   "releaseDate": "Jun 30",
+   "releaseDate": "Thu Jun 30",
    "distributor": "Universal Pictures International (UPI)"
   },
   {
    "title": "Borderlands",
    "gross": 2309,
-   "releaseDate": "Aug 8",
+   "releaseDate": "Thu Aug 8",
    "distributor": "-"
   },
   {
    "title": "Dream Scenario",
    "gross": 1189,
-   "releaseDate": "May 16",
+   "releaseDate": "Thu May 16",
    "distributor": "Zima Entertainment"
   },
   {
    "title": "To Leslie",
    "gross": 1129,
-   "releaseDate": "Jun 29",
+   "releaseDate": "Thu Jun 29",
    "distributor": "-"
   }
  ]
