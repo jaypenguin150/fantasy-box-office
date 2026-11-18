@@ -1,0 +1,1889 @@
+{
+ "updated": "2026-11-17",
+ "enforce": {
+  "sequels": true,
+  "summer": true,
+  "distributor": true
+ },
+ "season": 2024,
+ "penalty": 75000000,
+ "rtThreshold": 0.45,
+ "movies": {
+  "A Quiet Place: Day One": {
+   "distributor": "Paramount Pictures",
+   "month": "Jun",
+   "grossDom": 138930553,
+   "grossMex": 13278524,
+   "franchise": true,
+   "rt": 0.86
+  },
+  "Anyone But You": {
+   "distributor": "Columbia Pictures",
+   "month": "Dec",
+   "grossDom": 63482283,
+   "grossMex": 4911488,
+   "franchise": false,
+   "rt": 0.54
+  },
+  "Aquaman and the Lost Kingdom": {
+   "distributor": "Warner Bros.",
+   "month": "Dec",
+   "grossDom": 48011513,
+   "grossMex": 8744159,
+   "franchise": true,
+   "rt": 0.33
+  },
+  "Argylle": {
+   "distributor": "Universal Pictures International (UPI)",
+   "month": "Feb",
+   "grossDom": 45207275,
+   "grossMex": 1081665,
+   "franchise": false,
+   "rt": 0.33
+  },
+  "Arthur the King": {
+   "distributor": "Lionsgate",
+   "month": "Mar",
+   "grossDom": 25049006,
+   "grossMex": 4184171,
+   "franchise": false,
+   "rt": 0.69
+  },
+  "Bad Boys: Ride or Die": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "Jun",
+   "grossDom": 193573217,
+   "grossMex": 14682601,
+   "franchise": true,
+   "rt": 0.65
+  },
+  "Ballerina": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0
+  },
+  "Beetlejuice Beetlejuice": {
+   "distributor": "Warner Bros.",
+   "month": "Sep",
+   "grossDom": 294100435,
+   "grossMex": 19319371,
+   "franchise": true,
+   "rt": 0.76
+  },
+  "Bob Marley: One Love": {
+   "distributor": "Paramount Pictures",
+   "month": "Feb",
+   "grossDom": 96893170,
+   "grossMex": 1571096,
+   "franchise": false,
+   "rt": 0.44
+  },
+  "Borderlands": {
+   "distributor": "Lionsgate",
+   "month": "Aug",
+   "grossDom": 15482668,
+   "grossMex": 2309,
+   "franchise": false,
+   "rt": 0.1
+  },
+  "Captain America:  Brave New World": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0
+  },
+  "Challengers": {
+   "distributor": "United Artists Releasing",
+   "month": "Apr",
+   "grossDom": 50119408,
+   "grossMex": 2707608,
+   "franchise": false,
+   "rt": 0.88
+  },
+  "Civil War": {
+   "distributor": "A24",
+   "month": "Apr",
+   "grossDom": 68603430,
+   "grossMex": 2802374,
+   "franchise": false,
+   "rt": 0.81
+  },
+  "Deadpool & Wolverine": {
+   "distributor": "Walt Disney Studios Motion Pictures",
+   "month": "Jul",
+   "grossDom": 636745858,
+   "grossMex": 43529290,
+   "franchise": true,
+   "rt": 0.74
+  },
+  "Despicable Me 4": {
+   "distributor": "Universal Pictures",
+   "month": "Jul",
+   "grossDom": 361004205,
+   "grossMex": 39333300,
+   "franchise": true,
+   "rt": 0.56
+  },
+  "Drive-Away Dolls": {
+   "distributor": "Focus Features",
+   "month": "Feb",
+   "grossDom": 5028215,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.63
+  },
+  "Dune: Part Two": {
+   "distributor": "Warner Bros.",
+   "month": "Mar",
+   "grossDom": 282144358,
+   "grossMex": 3176905,
+   "franchise": true,
+   "rt": 0.92
+  },
+  "Founders day": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0
+  },
+  "Furiosa: A Mad Max Saga": {
+   "distributor": "Warner Bros.",
+   "month": "May",
+   "grossDom": 67475791,
+   "grossMex": 5509149,
+   "franchise": true,
+   "rt": 0.9
+  },
+  "Ghostbusters: Frozen Empire": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "Mar",
+   "grossDom": 113376590,
+   "grossMex": 7504505,
+   "franchise": true,
+   "rt": 0.42
+  },
+  "Gladiator II": {
+   "distributor": "Paramount Pictures",
+   "month": "Nov",
+   "grossDom": 164554921,
+   "grossMex": 16591252,
+   "franchise": true,
+   "rt": 0.71
+  },
+  "Godzilla x Kong: The New Empire": {
+   "distributor": "Warner Bros.",
+   "month": "Mar",
+   "grossDom": 196350016,
+   "grossMex": 33522327,
+   "franchise": true,
+   "rt": 0.54
+  },
+  "Harold and the Purple Crayon": {
+   "distributor": "Columbia Pictures",
+   "month": "Aug",
+   "grossDom": 17640924,
+   "grossMex": 819123,
+   "franchise": false,
+   "rt": 0.28
+  },
+  "If": {
+   "distributor": "Paramount Pictures",
+   "month": "May",
+   "grossDom": 111149917,
+   "grossMex": 9250289,
+   "franchise": false,
+   "rt": 0.85
+  },
+  "Inside Out 2": {
+   "distributor": "Walt Disney Studios Motion Pictures",
+   "month": "Jun",
+   "grossDom": 652980194,
+   "grossMex": 102299578,
+   "franchise": true,
+   "rt": 0.91
+  },
+  "It Ends With Us": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "Aug",
+   "grossDom": 148518266,
+   "grossMex": 13541962,
+   "franchise": false,
+   "rt": 0.55
+  },
+  "Joker: Folie à Deux": {
+   "distributor": "Warner Bros.",
+   "month": "Oct",
+   "grossDom": 58300287,
+   "grossMex": 8100994,
+   "franchise": true,
+   "rt": 0.31
+  },
+  "Kingdom of the Planet of the Apes": {
+   "distributor": "20th Century Studios",
+   "month": "May",
+   "grossDom": 171130165,
+   "grossMex": 19933246,
+   "franchise": true,
+   "rt": 0.8
+  },
+  "Kraven: The Hunter": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0.16
+  },
+  "Kung Fu Panda 4": {
+   "distributor": "Universal Pictures",
+   "month": "Mar",
+   "grossDom": 193590620,
+   "grossMex": 29064534,
+   "franchise": true,
+   "rt": 0.71
+  },
+  "Lights out": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.35
+  },
+  "Lisa Frankenstein": {
+   "distributor": "Focus Features",
+   "month": "Feb",
+   "grossDom": 9774285,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.52
+  },
+  "Luca": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 138849,
+   "franchise": false,
+   "rt": 0.91
+  },
+  "Madame Web": {
+   "distributor": "Columbia Pictures",
+   "month": "Feb",
+   "grossDom": 43817106,
+   "grossMex": 4222810,
+   "franchise": false,
+   "rt": 0.11
+  },
+  "Mean Girls": {
+   "distributor": "Paramount Pictures",
+   "month": "Jan",
+   "grossDom": 72404248,
+   "grossMex": 3074198,
+   "franchise": false,
+   "rt": 0.69
+  },
+  "Memory": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0
+  },
+  "Mickey 17": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0
+  },
+  "Migration": {
+   "distributor": "Universal Pictures",
+   "month": "Dec",
+   "grossDom": 73202330,
+   "grossMex": 3417706,
+   "franchise": false,
+   "rt": 0.73
+  },
+  "Mufasa: The Lion King": {
+   "distributor": "Walt Disney Studios Motion Pictures",
+   "month": "Dec",
+   "grossDom": 128143945,
+   "grossMex": 15553277,
+   "franchise": true,
+   "rt": 0.55
+  },
+  "New Jordan Peele Film (2024)": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0
+  },
+  "Night Swim": {
+   "distributor": "Universal Pictures International (UPI)",
+   "month": "Jan",
+   "grossDom": 32494740,
+   "grossMex": 2337617,
+   "franchise": false,
+   "rt": 0.2
+  },
+  "Nosferatu": {
+   "distributor": "Focus Features",
+   "month": "Dec",
+   "grossDom": 48120015,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.85
+  },
+  "Sonic the Hedgehog 3": {
+   "distributor": "Paramount Pictures",
+   "month": "Dec",
+   "grossDom": 151558894,
+   "grossMex": 10300000,
+   "franchise": true,
+   "rt": 0.86
+  },
+  "Soul": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 243114,
+   "franchise": false,
+   "rt": 0.95
+  },
+  "Speak No Evil": {
+   "distributor": "Universal Pictures",
+   "month": "Sep",
+   "grossDom": 36931420,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0.83
+  },
+  "Spiderman: Beyond the Spiderverse": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0
+  },
+  "The Beekeeper": {
+   "distributor": "Metro-Goldwyn-Mayer (MGM)",
+   "month": "Jan",
+   "grossDom": 66220535,
+   "grossMex": 3362609,
+   "franchise": false,
+   "rt": 0.71
+  },
+  "The Book of Clarence": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "Jan",
+   "grossDom": 6132813,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.66
+  },
+  "The Boys in the Boat": {
+   "distributor": "Amazon MGM Studios",
+   "month": "Dec",
+   "grossDom": 30642834,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.57
+  },
+  "The Color Purple": {
+   "distributor": "Warner Bros.",
+   "month": "Dec",
+   "grossDom": 16571549,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0.81
+  },
+  "The Fall Guy": {
+   "distributor": "Universal Pictures",
+   "month": "May",
+   "grossDom": 92900355,
+   "grossMex": 3048445,
+   "franchise": false,
+   "rt": 0.82
+  },
+  "The Garfield Movie": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "May",
+   "grossDom": 91956547,
+   "grossMex": 18367813,
+   "franchise": false,
+   "rt": 0.37
+  },
+  "The Hunger Games: The Ballad of Songbirds & Snakes": {
+   "distributor": "Lionsgate",
+   "month": "Nov",
+   "grossDom": 6630969,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0.64
+  },
+  "The Karate Kid": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": true,
+   "rt": 0
+  },
+  "The Lord of the Rings: The War of the Rohirrim": {
+   "distributor": "Warner Bros.",
+   "month": "Dec",
+   "grossDom": 8755502,
+   "grossMex": 134145,
+   "franchise": true,
+   "rt": 0.45
+  },
+  "The Watchers": {
+   "distributor": "Warner Bros.",
+   "month": "Jun",
+   "grossDom": 19071404,
+   "grossMex": 362942,
+   "franchise": false,
+   "rt": 0.32
+  },
+  "Transformers One": {
+   "distributor": "Paramount Pictures",
+   "month": "Sep",
+   "grossDom": 59054170,
+   "grossMex": 2534531,
+   "franchise": true,
+   "rt": 0.89
+  },
+  "Turning Red": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 574654,
+   "franchise": false,
+   "rt": 0.95
+  },
+  "Venom: The Last Dance": {
+   "distributor": "Sony Pictures Releasing",
+   "month": "Oct",
+   "grossDom": 139733580,
+   "grossMex": 19141269,
+   "franchise": true,
+   "rt": 0.41
+  },
+  "Wicked": {
+   "distributor": "Universal Pictures",
+   "month": "Nov",
+   "grossDom": 432943285,
+   "grossMex": 9576374,
+   "franchise": false,
+   "rt": 0.88
+  },
+  "Wolfs": {
+   "distributor": "Not Released Yet",
+   "month": "",
+   "grossDom": 0,
+   "grossMex": 0,
+   "franchise": false,
+   "rt": 0
+  }
+ },
+ "players": [
+  {
+   "name": "Adam Eller",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x Kong: The New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "Mufasa: The Lion King",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": false
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Spiderman Beyond the Spider-Verse",
+     "movie": "Spiderman: Beyond the Spiderverse",
+     "scoring": false
+    },
+    {
+     "pick": "Joker: Folie a Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Adam Levy",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune: Part 2",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x Kong: The New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "Ghostbusters: Frozen Empire",
+     "movie": "Ghostbusters: Frozen Empire",
+     "scoring": false
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": true
+    },
+    {
+     "pick": "Kingdom of the Planet of the Apes",
+     "movie": "Kingdom of the Planet of the Apes",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": false
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Sonic the Hedgehog 3",
+     "movie": "Sonic the Hedgehog 3",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "The Lord of the Rings: The War of the Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Annette McBride",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "If",
+     "movie": "If",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Luca",
+     "movie": "Luca",
+     "scoring": false
+    },
+    {
+     "pick": "Mickey 17",
+     "movie": "Mickey 17",
+     "scoring": false
+    },
+    {
+     "pick": "Arthur the King",
+     "movie": "Arthur the King",
+     "scoring": true
+    },
+    {
+     "pick": "Drive-Away Dolls",
+     "movie": "Drive-Away Dolls",
+     "scoring": true
+    },
+    {
+     "pick": "It Ends With Us",
+     "movie": "It Ends With Us",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Turning Red",
+     "movie": "Turning Red",
+     "scoring": false
+    },
+    {
+     "pick": "Memory",
+     "movie": "Memory",
+     "scoring": false
+    },
+    {
+     "pick": "Watchers",
+     "movie": "The Watchers",
+     "scoring": false
+    },
+    {
+     "pick": "Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Bernardo Miranda",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "The Garfield Movie",
+     "movie": "The Garfield Movie",
+     "scoring": false
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Wolfs",
+     "movie": "Wolfs",
+     "scoring": false
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Joker: Folie à Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Speak No Evil",
+     "movie": "Speak No Evil",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Caitlyn Khuu",
+   "employed": false,
+   "picks": [
+    {
+     "pick": "Anyone but you",
+     "movie": "Anyone But You",
+     "scoring": true
+    },
+    {
+     "pick": "Aquaman and the lost kingdom",
+     "movie": "Aquaman and the Lost Kingdom",
+     "scoring": false
+    },
+    {
+     "pick": "Migration",
+     "movie": "Migration",
+     "scoring": true
+    },
+    {
+     "pick": "The color purple",
+     "movie": "The Color Purple",
+     "scoring": true
+    },
+    {
+     "pick": "Night swim",
+     "movie": "Night Swim",
+     "scoring": false
+    },
+    {
+     "pick": "Lights out",
+     "movie": "Lights out",
+     "scoring": false
+    },
+    {
+     "pick": "Mean girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Founder's day",
+     "movie": "Founders day",
+     "scoring": false
+    },
+    {
+     "pick": "The beekeeper",
+     "movie": "The Beekeeper",
+     "scoring": true
+    },
+    {
+     "pick": "Soul",
+     "movie": "Soul",
+     "scoring": false
+    },
+    {
+     "pick": "The boys in the boat",
+     "movie": "The Boys in the Boat",
+     "scoring": true
+    },
+    {
+     "pick": "The book of Clarence",
+     "movie": "The Book of Clarence",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Don Sutherland",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Mean Grils",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Dune 2",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Mickey 17",
+     "movie": "Mickey 17",
+     "scoring": false
+    },
+    {
+     "pick": "Civil War",
+     "movie": "Civil War",
+     "scoring": true
+    },
+    {
+     "pick": "Ballerina",
+     "movie": "Ballerina",
+     "scoring": false
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Joker: Folie a Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Spiderman: Beyond the Spiderverse",
+     "movie": "Spiderman: Beyond the Spiderverse",
+     "scoring": false
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Elisabeth Sum",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Beetlejuice 2",
+     "movie": "Beetlejuice Beetlejuice",
+     "scoring": true
+    },
+    {
+     "pick": "Dune 2",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "A Quiet Place Day One",
+     "movie": "A Quiet Place: Day One",
+     "scoring": true
+    },
+    {
+     "pick": "Lord of the Rings War of Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Joker 2",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Wicked Part 1",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Ghostbusters Frozen Empire",
+     "movie": "Ghostbusters: Frozen Empire",
+     "scoring": false
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Mufasa",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Gabby Porcaro",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out Two",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Sonic the Hedgehog 3",
+     "movie": "Sonic the Hedgehog 3",
+     "scoring": false
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "The Garfield Movie",
+     "movie": "The Garfield Movie",
+     "scoring": true
+    },
+    {
+     "pick": "Memory",
+     "movie": "Memory",
+     "scoring": false
+    },
+    {
+     "pick": "Bad Boys 4",
+     "movie": "Bad Boys: Ride or Die",
+     "scoring": true
+    },
+    {
+     "pick": "Beetlejuice 2",
+     "movie": "Beetlejuice Beetlejuice",
+     "scoring": true
+    },
+    {
+     "pick": "Mufasa: The Lion King",
+     "movie": "Mufasa: The Lion King",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "George Cameron",
+   "employed": false,
+   "picks": [
+    {
+     "pick": "Joker: Folie à Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Challengers",
+     "movie": "Challengers",
+     "scoring": true
+    },
+    {
+     "pick": "The Lord of the Rings: The War of the Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Mufasa: The Lion King",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    },
+    {
+     "pick": "IF",
+     "movie": "If",
+     "scoring": true
+    },
+    {
+     "pick": "Bad Boys 4",
+     "movie": "Bad Boys: Ride or Die",
+     "scoring": true
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Iris Barre",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "It Ends With Us",
+     "movie": "It Ends With Us",
+     "scoring": true
+    },
+    {
+     "pick": "Dune Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Madame Webb",
+     "movie": "Madame Web",
+     "scoring": false
+    },
+    {
+     "pick": "Ghostbusters",
+     "movie": "Ghostbusters: Frozen Empire",
+     "scoring": false
+    },
+    {
+     "pick": "Godzilla",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Nosferatu",
+     "movie": "Nosferatu",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Jacob Kemet-Rosenwohl",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "The Beekeeper",
+     "movie": "The Beekeeper",
+     "scoring": true
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Madame Web",
+     "movie": "Madame Web",
+     "scoring": false
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Mickey 17",
+     "movie": "Mickey 17",
+     "scoring": false
+    },
+    {
+     "pick": "Kingdom of the Planet of the Apes",
+     "movie": "Kingdom of the Planet of the Apes",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Borderlands",
+     "movie": "Borderlands",
+     "scoring": false
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Jayson Weingarten",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x Kong: The New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Mean Girls Musical",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Fuiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Joker: Folie a Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Lord of the Rinkgs War of Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Mufasa: The Lion King",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Jiwei Sun",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x Kong: The New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "The Garfield Movie",
+     "movie": "The Garfield Movie",
+     "scoring": false
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Venom 3",
+     "movie": "Venom: The Last Dance",
+     "scoring": true
+    },
+    {
+     "pick": "Ballerina",
+     "movie": "Ballerina",
+     "scoring": false
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Bob Marley: One Love",
+     "movie": "Bob Marley: One Love",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Jonathan Hurd",
+   "employed": false,
+   "picks": [
+    {
+     "pick": "Dune Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "The Lord of the Rings:  The War of the Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Captain America:  Brave New World",
+     "movie": "Captain America:  Brave New World",
+     "scoring": false
+    },
+    {
+     "pick": "The Hunger Games 5",
+     "movie": "The Hunger Games: The Ballad of Songbirds & Snakes",
+     "scoring": true
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked Part 1",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "The Karate Kid",
+     "movie": "The Karate Kid",
+     "scoring": false
+    },
+    {
+     "pick": "Sonic the Hedgehog 3",
+     "movie": "Sonic the Hedgehog 3",
+     "scoring": true
+    },
+    {
+     "pick": "Beetlejuice 2",
+     "movie": "Beetlejuice Beetlejuice",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Katie Blackwell",
+   "employed": false,
+   "picks": [
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Argyle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Dune II",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Civil War",
+     "movie": "Civil War",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x Kong - The New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    },
+    {
+     "pick": "If",
+     "movie": "If",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Dead Pool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Joker: Folie a Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Louisa Carman",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: a mad max saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Transformers One",
+     "movie": "Transformers One",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "The Lord of the Rings: The War of Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Mufasa",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    },
+    {
+     "pick": "Ballerina",
+     "movie": "Ballerina",
+     "scoring": false
+    },
+    {
+     "pick": "Madame Web",
+     "movie": "Madame Web",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Martina Umunna",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Mickey 17",
+     "movie": "Mickey 17",
+     "scoring": false
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Kingdom of the Planet of the Apes",
+     "movie": "Kingdom of the Planet of the Apes",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Nosferatu",
+     "movie": "Nosferatu",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Untitled Fourth Film Directed by Jordan Peele",
+     "movie": "New Jordan Peele Film (2024)",
+     "scoring": false
+    },
+    {
+     "pick": "Lisa Frankenstein",
+     "movie": "Lisa Frankenstein",
+     "scoring": true
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Meghan Brady",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Bob Marley: One Love",
+     "movie": "Bob Marley: One Love",
+     "scoring": true
+    },
+    {
+     "pick": "Madame Web",
+     "movie": "Madame Web",
+     "scoring": false
+    },
+    {
+     "pick": "Dune Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Ballerina",
+     "movie": "Ballerina",
+     "scoring": false
+    },
+    {
+     "pick": "Harold and the Purple Crayon",
+     "movie": "Harold and the Purple Crayon",
+     "scoring": false
+    },
+    {
+     "pick": "Borderlands",
+     "movie": "Borderlands",
+     "scoring": false
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Godzilla x King Kong New Empire",
+     "movie": "Godzilla x Kong: The New Empire",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Phil Hooper",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Dune Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked Part 1",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "The Fall Guy",
+     "movie": "The Fall Guy",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Joker: Folle a Deux",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Venom 3",
+     "movie": "Venom: The Last Dance",
+     "scoring": false
+    },
+    {
+     "pick": "Kung Fu Panda 4",
+     "movie": "Kung Fu Panda 4",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa: A Mad Max Saga",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": false
+    },
+    {
+     "pick": "IF",
+     "movie": "If",
+     "scoring": true
+    }
+   ]
+  },
+  {
+   "name": "Qi Zhou",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "Lights Out",
+     "movie": "Lights out",
+     "scoring": false
+    },
+    {
+     "pick": "Argylle",
+     "movie": "Argylle",
+     "scoring": false
+    },
+    {
+     "pick": "Lisa Frankenstein",
+     "movie": "Lisa Frankenstein",
+     "scoring": true
+    },
+    {
+     "pick": "Madame Web",
+     "movie": "Madame Web",
+     "scoring": false
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Challengers",
+     "movie": "Challengers",
+     "scoring": true
+    },
+    {
+     "pick": "Ballerina",
+     "movie": "Ballerina",
+     "scoring": false
+    },
+    {
+     "pick": "Wicked Part One",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Despicable Me 4",
+     "movie": "Despicable Me 4",
+     "scoring": true
+    },
+    {
+     "pick": "Kraven the Hunter",
+     "movie": "Kraven: The Hunter",
+     "scoring": false
+    }
+   ]
+  },
+  {
+   "name": "Xavier Taboada",
+   "employed": true,
+   "picks": [
+    {
+     "pick": "Deadpool 3",
+     "movie": "Deadpool & Wolverine",
+     "scoring": true
+    },
+    {
+     "pick": "Inside Out 2",
+     "movie": "Inside Out 2",
+     "scoring": true
+    },
+    {
+     "pick": "Joker 2",
+     "movie": "Joker: Folie à Deux",
+     "scoring": false
+    },
+    {
+     "pick": "Mean Girls",
+     "movie": "Mean Girls",
+     "scoring": true
+    },
+    {
+     "pick": "LotR: War of the Rohirrim",
+     "movie": "The Lord of the Rings: The War of the Rohirrim",
+     "scoring": false
+    },
+    {
+     "pick": "Gladiator 2",
+     "movie": "Gladiator II",
+     "scoring": true
+    },
+    {
+     "pick": "Mufasa",
+     "movie": "Mufasa: The Lion King",
+     "scoring": true
+    },
+    {
+     "pick": "Furiosa",
+     "movie": "Furiosa: A Mad Max Saga",
+     "scoring": true
+    },
+    {
+     "pick": "Wicked",
+     "movie": "Wicked",
+     "scoring": true
+    },
+    {
+     "pick": "Dune: Part Two",
+     "movie": "Dune: Part Two",
+     "scoring": true
+    },
+    {
+     "pick": "Beetlejuice 2",
+     "movie": "Beetlejuice Beetlejuice",
+     "scoring": true
+    },
+    {
+     "pick": "Mickey 17",
+     "movie": "Mickey 17",
+     "scoring": false
+    }
+   ]
+  }
+ ]
+}

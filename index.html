@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy Box Office 2024</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎟️%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F4F6FA; --surface: #FFFFFF; --ink: #14183A; --muted: #5A6082; --rule: #D3D8E6;
+  --solid: #1E2A78; --ghost: rgba(30,42,120,.28); --gold: #C98A00; --bad: #B3342B; --ok: #2E7D4F;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --text: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1126; --surface: #151A38; --ink: #E9ECF8; --muted: #9AA1C7; --rule: #272C52;
+    --solid: #8C9BFF; --ghost: rgba(140,155,255,.30); --gold: #F2B531; --bad: #FF8F80; --ok: #6FD39A;
+    color-scheme: dark;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: 1rem; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.5 var(--text); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+h1, h2, h3 { font-family: var(--display); font-weight: 800; line-height: 1; margin: 0; letter-spacing: .01em; }
+h1 { font-size: clamp(2.6rem, 8vw, 4.6rem); }
+h2 { font-size: 2rem; margin-bottom: .75rem; }
+h3 { font-size: 1.35rem; margin: 1.75rem 0 .5rem; }
+p { max-width: 68ch; margin: .5rem 0; }
+a { color: var(--solid); }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 3px; }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+header .sub { margin-top: .75rem; color: var(--muted); max-width: 60ch; }
+.controls { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: center; margin: 1.5rem 0 0; }
+.seg { display: inline-flex; border: 1.5px solid var(--solid); border-radius: 6px; overflow: hidden; }
+.seg button { background: none; border: 0; padding: .4rem .85rem; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--solid); color: var(--bg); }
+label.check { display: inline-flex; gap: .5rem; align-items: center; cursor: pointer; }
+
+nav.tabs { display: flex; gap: 1.5rem; margin-top: 1.75rem; border-bottom: 1.5px solid var(--rule); overflow-x: auto; }
+nav.tabs a { padding: .6rem 0; text-decoration: none; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1.5px; white-space: nowrap; font-weight: 500; }
+nav.tabs a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--gold); }
+main { margin-top: 1.75rem; }
+main:focus { outline: none; }
+
+/* standings ledger */
+.prize { border-left: 4px solid var(--gold); padding: .25rem 0 .25rem 1rem; margin: 0 0 1.5rem; }
+.prize ol { margin: .25rem 0 0; padding-left: 1.25rem; }
+.legend { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: .875rem; color: var(--muted); margin-bottom: .5rem; }
+.legend i { display: inline-block; width: 1.6rem; height: .7rem; vertical-align: middle; margin-right: .4rem; border-radius: 2px; }
+.sw-solid { background: var(--solid); }
+.sw-ghost { background: repeating-linear-gradient(135deg, var(--ghost) 0 4px, transparent 4px 8px); outline: 1px solid var(--ghost); }
+ol.ledger { list-style: none; margin: 0; padding: 0; }
+.ledger li { display: grid; grid-template-columns: 3rem minmax(0, 1fr) auto; gap: .25rem 1rem; align-items: center; padding: .85rem 0; border-top: 1px solid var(--rule); }
+.ledger li:last-child { border-bottom: 1px solid var(--rule); }
+.rank { font: 800 2.1rem/1 var(--display); color: var(--muted); text-align: right; }
+.ledger li:first-child .rank { color: var(--gold); }
+.who { display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .75rem; }
+.who button { background: none; border: 0; padding: 0; cursor: pointer; font-weight: 600; font-size: 1.05rem; text-align: left; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.who button:hover { text-decoration-color: var(--gold); }
+.tag { font-size: .8rem; font-weight: 600; padding: .05rem .5rem; border-radius: 99px; border: 1.5px solid currentColor; }
+.tag.bad { color: var(--bad); } .tag.muted { color: var(--muted); }
+.bar { grid-column: 2; height: .8rem; display: flex; background: transparent; }
+.bar .s { background: var(--solid); border-radius: 2px 0 0 2px; }
+.bar .g { background: repeating-linear-gradient(135deg, var(--ghost) 0 4px, transparent 4px 8px); outline: 1px solid var(--ghost); outline-offset: -1px; }
+.amt { grid-column: 3; grid-row: 1 / span 2; text-align: right; font-variant-numeric: tabular-nums; }
+.amt strong { font: 700 1.6rem/1 var(--display); display: block; }
+.amt span { font-size: .8rem; color: var(--muted); }
+
+/* tables */
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+th, td { padding: .55rem .6rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+th { font-weight: 600; color: var(--muted); border-bottom: 1.5px solid var(--ink); white-space: nowrap; }
+th.num, td.num { text-align: right; }
+th button { background: none; border: 0; padding: 0; cursor: pointer; font-weight: 600; color: inherit; }
+tr.off td { color: var(--muted); }
+td small { display: block; color: var(--muted); }
+.pill { font-size: .78rem; border: 1px solid var(--rule); border-radius: 4px; padding: 0 .35rem; margin-right: .3rem; white-space: nowrap; }
+.good { color: var(--ok); } .badtxt { color: var(--bad); }
+.penalty { color: var(--bad); }
+
+.picker { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-bottom: 1rem; }
+select, input[type=search] { background: var(--surface); border: 1.5px solid var(--rule); border-radius: 6px; padding: .45rem .6rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 1.25rem 2.5rem; margin: 1rem 0 1.5rem; }
+.stats div strong { display: block; font: 700 1.9rem/1.05 var(--display); font-variant-numeric: tabular-nums; }
+.stats div span { font-size: .85rem; color: var(--muted); }
+.notice.info { border-left-color: var(--gold); }
+.notice { background: var(--surface); border: 1.5px solid var(--rule); border-left: 4px solid var(--bad); padding: .6rem 1rem; margin: 1rem 0; border-radius: 4px; max-width: 72ch; }
+ul.plain { padding-left: 1.2rem; max-width: 70ch; } ul.plain li { margin: .35rem 0; }
+footer { margin-top: 3rem; color: var(--muted); font-size: .875rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+
+@media (max-width: 560px) {
+  nav.tabs { gap: 1rem; }
+  .ledger li { grid-template-columns: 2.2rem minmax(0,1fr); }
+  .amt { grid-column: 2; grid-row: auto; text-align: left; display: flex; gap: .6rem; align-items: baseline; }
+  .amt strong { display: inline; font-size: 1.35rem; }
+  .bar { grid-column: 2; }
+}
+@media (prefers-reduced-motion: no-preference) { .bar .s, .bar .g { transition: width .3s ease; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Fantasy Box Office 2024</h1>
+    <p class="sub" id="sub">Loading standings…</p>
+    <div class="controls" id="controls" hidden>
+      <div class="seg" role="group" aria-label="Rank players by">
+        <button type="button" data-mode="adjusted" aria-pressed="true">Scoring 9</button>
+        <button type="button" data-mode="gross" aria-pressed="false">All 12 greenlit</button>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#standings">Standings</a>
+      <a href="#player">My picks</a>
+      <a href="#movies">Movies</a>
+      <a href="#rules">How scoring works</a>
+    </nav>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <footer id="foot"></footer>
+</div>
+<script src="scoring.js"></script>
+<script>
+(function () {
+  "use strict";
+  const state = { data: null, res: null, mode: "adjusted" };
+  const $ = (s, el) => (el || document).querySelector(s);
+
+  function h(tag, props, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(props || {})) {
+      if (k === "class") el.className = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else if (v === true) el.setAttribute(k, "");
+      else if (v !== false && v != null) el.setAttribute(k, v);
+    }
+    kids.flat(Infinity).forEach(c => { if (c != null && c !== false) el.append(c.nodeType ? c : document.createTextNode(c)); });
+    return el;
+  }
+  const usd = n => "$" + Math.round(n).toLocaleString("en-US");
+  const short = n => n >= 1e9 ? "$" + (n / 1e9).toFixed(2) + "B" : "$" + Math.round(n / 1e6) + "M";
+  const SUMMER = FBO.SUMMER;
+
+  function recompute() { state.res = FBO.evaluate(state.data); render(); }
+
+  /* ---------- standings ---------- */
+  function standings() {
+    const { players } = state.res, key = state.mode;
+    const sorted = [...players].sort((a, b) => a[key + "Rank"] - b[key + "Rank"]);
+    const max = Math.max(...players.map(p => p.gross)) || 1;
+    const prize = players.filter(p => p.prizeRank).sort((a, b) => a.prizeRank - b.prizeRank).slice(0, 3);
+    const short9 = players.filter(p => p.scoringCount < 9).length;
+
+    const v = h("div", {});
+    v.append(h("div", { class: "prize" },
+      h("strong", {}, "Prize standing"),
+      h("span", { class: "muted" }, " (employed players, ranked by total)"),
+      h("ol", {}, prize.map(p => h("li", {}, p.name, " — ", usd(p.adjusted))))));
+    v.append(h("div", { class: "legend" },
+      h("span", {}, h("i", { class: "sw-solid" }), "Counted movies (best legal set, up to 9)"),
+      h("span", {}, h("i", { class: "sw-ghost" }), "Other greenlit movies (not counted)")));
+    v.append(h("ol", { class: "ledger" }, sorted.map(p => {
+      const other = key === "adjusted" ? p.gross : p.adjusted;
+      const otherLabel = key === "adjusted" ? "all 12" : "scoring 9";
+      return h("li", {},
+        h("div", { class: "rank", "aria-label": "Rank " + p[key + "Rank"] }, p[key + "Rank"]),
+        h("div", { class: "who" },
+          h("button", { type: "button", onclick: () => go("player", p.name) }, p.name),
+          p.scoringCount < 9 ? h("span", { class: "tag", title: p.blockers.map(i => i.text).join("\n") }, "Legal " + p.scoringCount + " of 9") : null,
+          !p.employed ? h("span", { class: "tag muted" }, "Not prize-eligible") : null),
+        h("div", { class: "bar", role: "img", "aria-label": `${usd(p.adjusted)} scoring, ${usd(p.gross - p.adjusted)} not counted` },
+          h("div", { class: "s", style: `width:${(p.adjusted / max * 100).toFixed(2)}%` }),
+          h("div", { class: "g", style: `width:${(Math.max(p.gross - p.adjusted, 0) / max * 100).toFixed(2)}%` })),
+        h("div", { class: "amt" }, h("strong", { title: usd(p[key]) }, short(p[key])), h("span", {}, short(other) + " " + otherLabel)));
+    })));
+    if (short9) v.append(h("p", { class: "muted" }, `${short9} of ${players.length} players can’t field a legal 9, so they’re scored on their best legal 8, 7 and so on. Open a player for details.`));
+    return v;
+  }
+
+  /* ---------- one player ---------- */
+  function playerView(name) {
+    const { players } = state.res;
+    const list = [...players].sort((a, b) => a.name.localeCompare(b.name));
+    const p = players.find(x => x.name === name) || [...players].sort((a, b) => a.adjustedRank - b.adjustedRank)[0];
+    const v = h("div", {});
+    const sel = h("select", { id: "pick-player", "aria-label": "Player", onchange: e => go("player", e.target.value) },
+      list.map(x => h("option", { value: x.name, selected: x.name === p.name }, x.name)));
+    v.append(h("div", { class: "picker" }, h("label", { for: "pick-player" }, "Player"), sel));
+    v.append(h("h2", {}, p.name));
+    v.append(h("div", { class: "stats" },
+      h("div", {}, h("strong", {}, usd(p.adjusted)), h("span", {}, `Counted ${p.scoringCount} movies · rank ${p.adjustedRank}`)),
+      h("div", {}, h("strong", {}, usd(p.gross)), h("span", {}, `All 12 greenlit · rank ${p.grossRank}`)),
+      h("div", {}, h("strong", {}, p.prizeRank ? "#" + p.prizeRank : "—"), h("span", {}, p.prizeRank ? "Prize standing" : "Not prize-eligible"))));
+
+    const out = p.picks.filter(k => k.submitted && !k.scoring), inn = p.picks.filter(k => k.scoring && !k.submitted);
+    const rules = Object.assign({ sequels: true, summer: true, distributor: true }, state.data.enforce);
+    const subIssues = FBO.check(p.picks.filter(k => k.submitted), rules).issues;
+    const delta = p.adjusted - p.submittedAdjusted;
+    v.append(h("p", { class: "muted" }, !out.length && !inn.length
+      ? "The automatic selection is the same 9 movies you picked by hand."
+      : "Compared with the 9 picked by hand in the original workbook: dropped " + (out.map(k => k.movie).join(", ") || "none") + "; added " + (inn.map(k => k.movie).join(", ") || "none") + ". " +
+        (subIssues.length ? "The hand-picked set broke a rule (" + subIssues.map(i => i.text).join("; ") + "). " : "") +
+        "Net change: " + (delta < 0 ? "−" : "+") + usd(Math.abs(delta)) + "."));
+    if (p.scoringCount < 9) v.append(h("div", { class: "notice info" }, h("strong", {}, "No legal 9 exists in these 12 greenlit movies. "), (p.blockers.length ? "The closest attempt had " + p.blockers.map(i => i.text).join("; ") + ". " : ""), `So the best legal ${p.scoringCount} are counted instead.`));
+    const picks = [...p.picks].sort((a, b) => (b.scoring - a.scoring) || (b.net - a.net));
+    v.append(h("div", { class: "tablewrap" }, h("table", {},
+      h("caption", { class: "muted", style: "text-align:left;padding-bottom:.4rem" }, (p.scoringCount < 9 ? `Only ${p.scoringCount} of these movies can legally count together, so those are the ones counted (highest revenue first). ` : "The 9 counted movies are the highest-revenue legal set from the 12 greenlit, chosen automatically. ") + "Counted movies are listed first."),
+      h("thead", {}, h("tr", {}, ["Movie", "Distributor", "Released", "US + Mexico gross", "Penalty", "Counted"].map((t, i) => h("th", { class: i >= 3 ? "num" : "" }, t)))),
+      h("tbody", {}, picks.map(k => {
+        const i = k.info;
+        const sub = [];
+        if (k.pick.toLowerCase() !== String(k.movie).toLowerCase()) sub.push("You entered “" + k.pick + "”");
+        if (!i) sub.push("Movie not found in data");
+        return h("tr", { class: k.scoring ? "" : "off" },
+          h("td", {},
+            h("strong", {}, k.movie),
+            h("div", {}, i && i.franchise ? h("span", { class: "pill" }, "Sequel/franchise") : null, i && SUMMER.includes(i.month) ? h("span", { class: "pill" }, "May–Sep") : null, i && i.rt ? h("span", { class: "pill" }, "RT " + Math.round(i.rt * 100) + "%") : null),
+            sub.length ? h("small", {}, sub.join(" · ")) : null),
+          h("td", {}, i && i.distributor !== "Not Released Yet" ? i.distributor : h("span", { class: "muted" }, "Not released in 2024")),
+          h("td", {}, i && i.month ? i.month : "—"),
+          h("td", { class: "num" }, usd(k.raw), k.mex ? h("small", {}, "US " + usd(k.us), h("br"), "Mexico " + usd(k.mex)) : null),
+          h("td", { class: "num " + (k.penalty ? "penalty" : "") }, k.penalty ? "−" + usd(k.penalty) : "—"),
+          h("td", { class: "num" }, k.scoring ? h("strong", {}, usd(k.net)) : h("span", {}, "Not counted")));
+      })),
+      h("tfoot", {}, h("tr", {}, h("td", { colspan: 5 }, h("strong", {}, "Counted total")), h("td", { class: "num" }, h("strong", {}, usd(p.adjusted))))))));
+
+    // rule checks
+    const scoringN = p.picks.filter(k => k.scoring).length;
+    const L = FBO.LIMITS, dist = Object.entries(p.distributors).sort((a, b) => b[1] - a[1]);
+    const rows = [
+      ["Counted movies", `${scoringN} counted`, `up to ${L.scoring}`, scoringN <= L.scoring],
+      ["Sequels and franchise movies", `${p.sequels} of your counted 9`, `max ${L.sequels}`, p.sequels <= L.sequels],
+      ["Released May–September", `${p.summer} of your counted 9`, `max ${L.summer}`, p.summer <= L.summer],
+      ["Movies per distributor (counted 9)", dist.map(([d, n]) => `${d} ${n}`).join(", ") || "—", "fewer than 5 each", dist.every(([, n]) => n <= L.maxPerDistributor)],
+      ["Distinct distributors (counted 9)", `${dist.length}`, `at least ${L.minDistributors}`, dist.length >= L.minDistributors]
+    ];
+    v.append(h("h3", {}, "Rule checks"));
+    v.append(h("div", { class: "tablewrap" }, h("table", {},
+      h("thead", {}, h("tr", {}, ["Rule", "Your picks", "Limit", "Result"].map(t => h("th", {}, t)))),
+      h("tbody", {}, rows.map(r => h("tr", {}, h("td", {}, r[0]), h("td", {}, r[1]), h("td", {}, r[2]),
+        h("td", { class: r[3] ? "good" : "badtxt" }, r[3] ? "✓ Pass" : "✗ Over the limit")))))));
+    return v;
+  }
+
+  /* ---------- movies ---------- */
+  let movieSort = { key: "greenlights", dir: -1 }, movieFilter = "";
+  function moviesView() {
+    const v = h("div", {});
+    const search = h("input", { type: "search", placeholder: "Filter movies", "aria-label": "Filter movies", value: movieFilter,
+      oninput: e => { movieFilter = e.target.value; drawRows(); } });
+    v.append(h("div", { class: "picker" }, search));
+    const cols = [
+      ["name", "Movie"], ["greenlights", "Greenlit by", "num"], ["scoringPicks", "Counted by", "num"], ["raw", "US + Mexico gross", "num"],
+      ["rt", "Rotten Tomatoes", "num"], ["distributor", "Distributor"], ["month", "Released"]
+    ];
+    const get = (m, k) => k === "rt" ? (m.info ? m.info.rt : 0) : k === "distributor" ? (m.info ? m.info.distributor : "") : k === "month" ? (m.info ? m.info.month : "") : m[k];
+    const body = h("tbody", {});
+    const table = h("table", {}, h("thead", {}, h("tr", {}, cols.map(([k, t, c]) =>
+      h("th", { class: c || "", "aria-sort": movieSort.key === k ? (movieSort.dir > 0 ? "ascending" : "descending") : "none" },
+        h("button", { type: "button", onclick: () => { movieSort = { key: k, dir: movieSort.key === k ? -movieSort.dir : (k === "name" || k === "distributor" ? 1 : -1) }; render(); } },
+          t + (movieSort.key === k ? (movieSort.dir > 0 ? " ▲" : " ▼") : "")))))), body);
+    function drawRows() {
+      body.replaceChildren();
+      const f = movieFilter.trim().toLowerCase();
+      const rows = state.res.movies.filter(m => !f || m.name.toLowerCase().includes(f) || (m.info && m.info.distributor.toLowerCase().includes(f)))
+        .sort((a, b) => { const x = get(a, movieSort.key), y = get(b, movieSort.key); return (typeof x === "string" ? x.localeCompare(y) : x - y) * movieSort.dir || a.name.localeCompare(b.name); });
+      rows.forEach(m => {
+        const i = m.info, pen = m.penalty > 0;
+        body.append(h("tr", {},
+          h("td", {}, h("strong", {}, m.name), i && i.franchise ? h("span", { class: "pill", style: "margin-left:.5rem" }, "Sequel/franchise") : null),
+          h("td", { class: "num" }, m.greenlights), h("td", { class: "num" }, m.scoringPicks),
+          h("td", { class: "num" }, m.raw ? usd(m.raw) : "—"),
+          h("td", { class: "num " + (pen ? "penalty" : "") }, i && i.rt ? Math.round(i.rt * 100) + "%" + (pen ? " (−$75M)" : "") : "—"),
+          h("td", {}, i && i.distributor !== "Not Released Yet" ? i.distributor : h("span", { class: "muted" }, "Not released in 2024")),
+          h("td", {}, i && i.month ? i.month : "—")));
+      });
+      if (!rows.length) body.append(h("tr", {}, h("td", { colspan: cols.length, class: "muted" }, "No movies match that filter.")));
+    }
+    drawRows();
+    v.append(h("div", { class: "tablewrap" }, table));
+    return v;
+  }
+
+  /* ---------- rules ---------- */
+  function rulesView() {
+    const d = state.data;
+    const v = h("div", {});
+    v.append(h("h2", {}, "How scoring works"));
+    v.append(h("ul", { class: "plain" },
+      h("li", {}, "Each player greenlit up to 12 movies. Their 9 scoring movies are the highest-revenue combination that follows the rules; this site finds it automatically by checking every possible 9."),
+      h("li", {}, "A movie scores its North American gross during calendar 2024: domestic plus Mexico, from Box Office Mojo."),
+      h("li", {}, `A movie with a Rotten Tomatoes Critics Consensus score of ${Math.round(d.rtThreshold * 100)}% or lower loses $75M. A movie can’t score below $0.`),
+      h("li", {}, "Rules for the 9 scoring movies: at most 5 released May–September, at most 6 sequels or franchise movies (the commissioner decides what counts), at least 3 distributors, and fewer than 5 from any one distributor."),
+      h("li", {}, "If a player can’t field a legal 9 (for example, 11 of their 12 greenlit movies are franchise), the site counts their best legal 8 instead, then 7, and so on. Players who aren’t employed are left out of the prize standing.")));
+    v.append(h("h3", {}, "Check the data yourself"));
+    v.append(h("p", {}, "Every number on this site comes from one file, ", h("a", { href: "data/data.json" }, "data/data.json"), ". It holds each player’s picks, plus each movie’s gross, distributor, release month, sequel flag and Rotten Tomatoes score. If a movie is mis-flagged or a gross looks wrong, tell the commissioner and it gets corrected there."));
+    v.append(h("p", { class: "muted" }, "Note: distributor names are used exactly as Box Office Mojo lists them, so “Universal Pictures” and “Universal Pictures International (UPI)” count as different distributors."));
+    return v;
+  }
+
+  /* ---------- routing ---------- */
+  function route() {
+    const m = location.hash.replace(/^#/, "").split("=");
+    return { view: ["standings", "player", "movies", "rules"].includes(m[0]) ? m[0] : "standings", arg: m[1] ? decodeURIComponent(m.slice(1).join("=")) : "" };
+  }
+  function go(view, arg) { location.hash = view + (arg ? "=" + encodeURIComponent(arg) : ""); }
+  function render() {
+    if (!state.res) return;
+    const r = route();
+    document.querySelectorAll("nav.tabs a").forEach(a => { if (a.getAttribute("href") === "#" + r.view) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    const view = $("#view");
+    view.replaceChildren(r.view === "player" ? playerView(r.arg) : r.view === "movies" ? moviesView() : r.view === "rules" ? rulesView() : standings());
+    $("#controls").hidden = !(r.view === "standings" || r.view === "player" || r.view === "movies");
+    document.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === state.mode)));
+    $(".seg").hidden = r.view !== "standings";
+  }
+  let lastView = null;
+  window.addEventListener("hashchange", () => { render(); const r = route(); if (r.view !== lastView) { $("#view").focus({ preventScroll: true }); window.scrollTo({ top: 0 }); } lastView = r.view; });
+
+  document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { state.mode = b.dataset.mode; render(); }));
+
+  fetch("data/data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
+    state.data = data;
+    $("#sub").textContent = `Last updated ${new Date(data.updated + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}. ${data.players.length} players, ${Object.keys(data.movies).length} movies.`;
+    $("#foot").textContent = "Box office data from Box Office Mojo. Picks from the league submission form.";
+    lastView = route().view;
+    recompute();
+  }).catch(err => {
+    $("#sub").textContent = "Couldn’t load data/data.json (" + err.message + "). If you opened this file directly, serve the folder instead: run “python3 -m http.server” and visit http://localhost:8000.";
+  });
+})();
+</script>
+</body>
+</html>
