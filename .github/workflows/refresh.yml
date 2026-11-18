@@ -1,0 +1,105 @@
+name: Refresh data
+
+# Runs once a day, but only refreshes when the data is 10+ days old (see refreshEveryDays in data/config.json).
+# You can also run it any time: Actions tab -> "Refresh data" -> "Run workflow".
+on:
+  push:
+    paths:                      # editing these files in GitHub rebuilds the site data (no web requests)
+      - data/movies.csv
+      - data/picks.json
+      - data/config.json
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+    inputs:
+      refresh_bom:
+        description: "Refresh Box Office Mojo grosses"
+        type: boolean
+        default: true
+      refresh_rt:
+        description: "Refresh Rotten Tomatoes scores (needs the OMDB_API_KEY secret)"
+        type: boolean
+        default: true
+      use_csv:
+        description: "Box Office Mojo is blocked: use the CSV files uploaded to data/manual instead"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # lets the job save the refreshed data files
+  pages: write      # lets the job ask GitHub Pages to republish
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check what is due
+        id: due
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REFRESH_BOM: ${{ inputs.refresh_bom }}
+          REFRESH_RT: ${{ inputs.refresh_rt }}
+          USE_CSV: ${{ inputs.use_csv }}
+        run: python scripts/due.py
+
+      - name: Pull Box Office Mojo
+        id: bom
+        if: steps.due.outputs.bom == 'true' && steps.due.outputs.csv != 'true'
+        continue-on-error: true
+        run: python scripts/fetch_bom.py
+
+      - name: Load Box Office Mojo from uploaded CSV files
+        id: bomcsv
+        if: steps.due.outputs.bom == 'true' && steps.due.outputs.csv == 'true'
+        continue-on-error: true
+        run: python scripts/import_bom_csv.py
+
+      - name: Pull Rotten Tomatoes scores via OMDb
+        id: rt
+        if: steps.due.outputs.rt == 'true'
+        continue-on-error: true
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+        run: python scripts/fetch_rt.py
+
+      - name: Rebuild data.json
+        if: github.event_name == 'push' || steps.bom.outcome == 'success' || steps.bomcsv.outcome == 'success' || steps.rt.outcome == 'success'
+        run: python scripts/build_data.py
+
+      - name: Save changes
+        id: save
+        if: github.event_name == 'push' || steps.bom.outcome == 'success' || steps.bomcsv.outcome == 'success' || steps.rt.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Refresh data $(date -u +%F)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ask GitHub Pages to republish
+        if: steps.save.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request not needed or not permitted; the site updates on its own."
+
+      - name: Mark the run as failed if a pull failed
+        if: steps.bom.outcome == 'failure' || steps.bomcsv.outcome == 'failure' || steps.rt.outcome == 'failure'
+        run: |
+          echo "::error::A data pull failed. Open the failed step above to see why. The data already on the site was not changed by the failed step."
+          exit 1
