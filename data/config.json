@@ -1,0 +1,11 @@
+{
+ "season": 2024,
+ "refreshEveryDays": 10,
+ "penalty": 75000000,
+ "rtThreshold": 0.45,
+ "enforce": {
+  "sequels": true,
+  "summer": true,
+  "distributor": true
+ }
+}

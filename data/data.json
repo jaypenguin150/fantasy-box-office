@@ -1,5 +1,7 @@
 {
  "updated": "2026-11-17",
+ "rtUpdated": "2026-11-17",
+ "refreshDays": 10,
  "enforce": {
   "sequels": true,
   "summer": true,
@@ -89,7 +91,7 @@
    "franchise": false,
    "rt": 0.1
   },
-  "Captain America:  Brave New World": {
+  "Captain America: Brave New World": {
    "distributor": "Not Released Yet",
    "month": "",
    "grossDom": 0,
@@ -1378,7 +1380,7 @@
     },
     {
      "pick": "Captain America:  Brave New World",
-     "movie": "Captain America:  Brave New World",
+     "movie": "Captain America: Brave New World",
      "scoring": false
     },
     {

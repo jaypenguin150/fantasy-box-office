@@ -302,6 +302,8 @@ footer { margin-top: 3rem; color: var(--muted); font-size: .875rem; border-top: 
       h("li", {}, `A movie with a Rotten Tomatoes Critics Consensus score of ${Math.round(d.rtThreshold * 100)}% or lower loses $75M. A movie can’t score below $0.`),
       h("li", {}, "Rules for the 9 scoring movies: at most 5 released May–September, at most 6 sequels or franchise movies (the commissioner decides what counts), at least 3 distributors, and fewer than 5 from any one distributor."),
       h("li", {}, "If a player can’t field a legal 9 (for example, 11 of their 12 greenlit movies are franchise), the site counts their best legal 8 instead, then 7, and so on. Players who aren’t employed are left out of the prize standing.")));
+    v.append(h("h3", {}, "Where the numbers come from"));
+    v.append(h("p", {}, `Box office grosses come from Box Office Mojo and Rotten Tomatoes scores from the OMDb service. Both refresh automatically about every ${d.refreshDays || 10} days; the dates at the top of the page show when each was last updated. Sequel/franchise flags are set by the commissioner.`));
     v.append(h("h3", {}, "Check the data yourself"));
     v.append(h("p", {}, "Every number on this site comes from one file, ", h("a", { href: "data/data.json" }, "data/data.json"), ". It holds each player’s picks, plus each movie’s gross, distributor, release month, sequel flag and Rotten Tomatoes score. If a movie is mis-flagged or a gross looks wrong, tell the commissioner and it gets corrected there."));
     v.append(h("p", { class: "muted" }, "Note: distributor names are used exactly as Box Office Mojo lists them, so “Universal Pictures” and “Universal Pictures International (UPI)” count as different distributors."));
@@ -331,7 +333,8 @@ footer { margin-top: 3rem; color: var(--muted); font-size: .875rem; border-top: 
 
   fetch("data/data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
     state.data = data;
-    $("#sub").textContent = `Last updated ${new Date(data.updated + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}. ${data.players.length} players, ${Object.keys(data.movies).length} movies.`;
+    const fmt = d => d ? new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) : "unknown";
+    $("#sub").textContent = `Box office as of ${fmt(data.updated)}. Rotten Tomatoes scores as of ${fmt(data.rtUpdated)}. ${data.players.length} players, ${Object.keys(data.movies).length} movies.`;
     $("#foot").textContent = "Box office data from Box Office Mojo. Picks from the league submission form.";
     lastView = route().view;
     recompute();

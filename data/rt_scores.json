@@ -1,0 +1,311 @@
+{
+ "fetchedAt": null,
+ "importedAt": "2026-11-17",
+ "scores": {
+  "A Quiet Place: Day One": {
+   "score": 0.86,
+   "source": "workbook",
+   "checked": null
+  },
+  "Anyone But You": {
+   "score": 0.54,
+   "source": "workbook",
+   "checked": null
+  },
+  "Aquaman and the Lost Kingdom": {
+   "score": 0.33,
+   "source": "workbook",
+   "checked": null
+  },
+  "Argylle": {
+   "score": 0.33,
+   "source": "workbook",
+   "checked": null
+  },
+  "Arthur the King": {
+   "score": 0.69,
+   "source": "workbook",
+   "checked": null
+  },
+  "Bad Boys: Ride or Die": {
+   "score": 0.65,
+   "source": "workbook",
+   "checked": null
+  },
+  "Ballerina": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Beetlejuice Beetlejuice": {
+   "score": 0.76,
+   "source": "workbook",
+   "checked": null
+  },
+  "Bob Marley: One Love": {
+   "score": 0.44,
+   "source": "workbook",
+   "checked": null
+  },
+  "Borderlands": {
+   "score": 0.1,
+   "source": "workbook",
+   "checked": null
+  },
+  "Captain America:  Brave New World": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Challengers": {
+   "score": 0.88,
+   "source": "workbook",
+   "checked": null
+  },
+  "Civil War": {
+   "score": 0.81,
+   "source": "workbook",
+   "checked": null
+  },
+  "Deadpool & Wolverine": {
+   "score": 0.74,
+   "source": "workbook",
+   "checked": null
+  },
+  "Despicable Me 4": {
+   "score": 0.56,
+   "source": "workbook",
+   "checked": null
+  },
+  "Drive-Away Dolls": {
+   "score": 0.63,
+   "source": "workbook",
+   "checked": null
+  },
+  "Dune: Part Two": {
+   "score": 0.92,
+   "source": "workbook",
+   "checked": null
+  },
+  "Founders day": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Furiosa: A Mad Max Saga": {
+   "score": 0.9,
+   "source": "workbook",
+   "checked": null
+  },
+  "Ghostbusters: Frozen Empire": {
+   "score": 0.42,
+   "source": "workbook",
+   "checked": null
+  },
+  "Gladiator II": {
+   "score": 0.71,
+   "source": "workbook",
+   "checked": null
+  },
+  "Godzilla x Kong: The New Empire": {
+   "score": 0.54,
+   "source": "workbook",
+   "checked": null
+  },
+  "Harold and the Purple Crayon": {
+   "score": 0.28,
+   "source": "workbook",
+   "checked": null
+  },
+  "If": {
+   "score": 0.85,
+   "source": "workbook",
+   "checked": null
+  },
+  "Inside Out 2": {
+   "score": 0.91,
+   "source": "workbook",
+   "checked": null
+  },
+  "It Ends With Us": {
+   "score": 0.55,
+   "source": "workbook",
+   "checked": null
+  },
+  "Joker: Folie à Deux": {
+   "score": 0.31,
+   "source": "workbook",
+   "checked": null
+  },
+  "Kingdom of the Planet of the Apes": {
+   "score": 0.8,
+   "source": "workbook",
+   "checked": null
+  },
+  "Kraven: The Hunter": {
+   "score": 0.16,
+   "source": "workbook",
+   "checked": null
+  },
+  "Kung Fu Panda 4": {
+   "score": 0.71,
+   "source": "workbook",
+   "checked": null
+  },
+  "Lights out": {
+   "score": 0.35,
+   "source": "workbook",
+   "checked": null
+  },
+  "Lisa Frankenstein": {
+   "score": 0.52,
+   "source": "workbook",
+   "checked": null
+  },
+  "Luca": {
+   "score": 0.91,
+   "source": "workbook",
+   "checked": null
+  },
+  "Madame Web": {
+   "score": 0.11,
+   "source": "workbook",
+   "checked": null
+  },
+  "Mean Girls": {
+   "score": 0.69,
+   "source": "workbook",
+   "checked": null
+  },
+  "Memory": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Mickey 17": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Migration": {
+   "score": 0.73,
+   "source": "workbook",
+   "checked": null
+  },
+  "Mufasa: The Lion King": {
+   "score": 0.55,
+   "source": "workbook",
+   "checked": null
+  },
+  "New Jordan Peele Film (2024)": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "Night Swim": {
+   "score": 0.2,
+   "source": "workbook",
+   "checked": null
+  },
+  "Nosferatu": {
+   "score": 0.85,
+   "source": "workbook",
+   "checked": null
+  },
+  "Sonic the Hedgehog 3": {
+   "score": 0.86,
+   "source": "workbook",
+   "checked": null
+  },
+  "Soul": {
+   "score": 0.95,
+   "source": "workbook",
+   "checked": null
+  },
+  "Speak No Evil": {
+   "score": 0.83,
+   "source": "workbook",
+   "checked": null
+  },
+  "Spiderman: Beyond the Spiderverse": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Beekeeper": {
+   "score": 0.71,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Book of Clarence": {
+   "score": 0.66,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Boys in the Boat": {
+   "score": 0.57,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Color Purple": {
+   "score": 0.81,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Fall Guy": {
+   "score": 0.82,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Garfield Movie": {
+   "score": 0.37,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Hunger Games: The Ballad of Songbirds & Snakes": {
+   "score": 0.64,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Karate Kid": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Lord of the Rings: The War of the Rohirrim": {
+   "score": 0.45,
+   "source": "workbook",
+   "checked": null
+  },
+  "The Watchers": {
+   "score": 0.32,
+   "source": "workbook",
+   "checked": null
+  },
+  "Transformers One": {
+   "score": 0.89,
+   "source": "workbook",
+   "checked": null
+  },
+  "Turning Red": {
+   "score": 0.95,
+   "source": "workbook",
+   "checked": null
+  },
+  "Venom: The Last Dance": {
+   "score": 0.41,
+   "source": "workbook",
+   "checked": null
+  },
+  "Wicked": {
+   "score": 0.88,
+   "source": "workbook",
+   "checked": null
+  },
+  "Wolfs": {
+   "score": 0,
+   "source": "workbook",
+   "checked": null
+  }
+ }
+}

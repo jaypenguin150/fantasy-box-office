@@ -1,0 +1,1207 @@
+{
+ "fetchedAt": null,
+ "importedAt": "2026-11-17",
+ "source": "https://www.boxofficemojo.com/year/2024/",
+ "rows": [
+  {
+   "title": "Inside Out 2",
+   "gross": 652980194,
+   "releaseDate": "Jun 14",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Deadpool & Wolverine",
+   "gross": 636745858,
+   "releaseDate": "Jul 26",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Wicked",
+   "gross": 432943285,
+   "releaseDate": "Nov 22",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Moana 2",
+   "gross": 404017489,
+   "releaseDate": "Nov 27",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Despicable Me 4",
+   "gross": 361004205,
+   "releaseDate": "Jul 3",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Beetlejuice Beetlejuice",
+   "gross": 294100435,
+   "releaseDate": "Sep 6",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Dune: Part Two",
+   "gross": 282144358,
+   "releaseDate": "Mar 1",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Twisters",
+   "gross": 267762265,
+   "releaseDate": "Jul 19",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Godzilla x Kong: The New Empire",
+   "gross": 196350016,
+   "releaseDate": "Mar 29",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Kung Fu Panda 4",
+   "gross": 193590620,
+   "releaseDate": "Mar 8",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Bad Boys: Ride or Die",
+   "gross": 193573217,
+   "releaseDate": "Jun 7",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Kingdom of the Planet of the Apes",
+   "gross": 171130165,
+   "releaseDate": "May 10",
+   "distributor": "20th Century Studios"
+  },
+  {
+   "title": "Gladiator II",
+   "gross": 164554921,
+   "releaseDate": "Nov 22",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Sonic the Hedgehog 3",
+   "gross": 151558894,
+   "releaseDate": "Dec 20",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "It Ends with Us",
+   "gross": 148518266,
+   "releaseDate": "Aug 9",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "The Wild Robot",
+   "gross": 143190445,
+   "releaseDate": "Sep 27",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Venom: The Last Dance",
+   "gross": 139733580,
+   "releaseDate": "Oct 25",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "A Quiet Place: Day One",
+   "gross": 138930553,
+   "releaseDate": "Jun 28",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Mufasa: The Lion King",
+   "gross": 128143945,
+   "releaseDate": "Dec 20",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Ghostbusters: Frozen Empire",
+   "gross": 113376590,
+   "releaseDate": "Mar 22",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "IF",
+   "gross": 111149917,
+   "releaseDate": "May 17",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Alien: Romulus",
+   "gross": 105313091,
+   "releaseDate": "Aug 16",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Bob Marley: One Love",
+   "gross": 96893170,
+   "releaseDate": "Feb 14",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Red One",
+   "gross": 96805881,
+   "releaseDate": "Nov 15",
+   "distributor": "Amazon MGM Studios"
+  },
+  {
+   "title": "The Fall Guy",
+   "gross": 92900355,
+   "releaseDate": "May 3",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "The Garfield Movie",
+   "gross": 91956547,
+   "releaseDate": "May 24",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Wonka",
+   "gross": 85272410,
+   "releaseDate": "Dec 15",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Longlegs",
+   "gross": 74346140,
+   "releaseDate": "Jul 12",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Migration",
+   "gross": 73202330,
+   "releaseDate": "Dec 22",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Mean Girls",
+   "gross": 72404248,
+   "releaseDate": "Jan 12",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Smile 2",
+   "gross": 68967012,
+   "releaseDate": "Oct 18",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Civil War",
+   "gross": 68603430,
+   "releaseDate": "Apr 12",
+   "distributor": "A24"
+  },
+  {
+   "title": "Furiosa: A Mad Max Saga",
+   "gross": 67475791,
+   "releaseDate": "May 24",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "The Beekeeper",
+   "gross": 66220535,
+   "releaseDate": "Jan 12",
+   "distributor": "Metro-Goldwyn-Mayer (MGM)"
+  },
+  {
+   "title": "Anyone But You",
+   "gross": 63482283,
+   "releaseDate": "Dec 22",
+   "distributor": "Columbia Pictures"
+  },
+  {
+   "title": "Transformers One",
+   "gross": 59054170,
+   "releaseDate": "Sep 20",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "Joker: Folie à Deux",
+   "gross": 58300287,
+   "releaseDate": "Oct 4",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Terrifier 3",
+   "gross": 53799754,
+   "releaseDate": "Oct 11",
+   "distributor": "Cineverse"
+  },
+  {
+   "title": "Challengers",
+   "gross": 50119408,
+   "releaseDate": "Apr 26",
+   "distributor": "United Artists Releasing"
+  },
+  {
+   "title": "Nosferatu",
+   "gross": 48120015,
+   "releaseDate": "Dec 25",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "Aquaman and the Lost Kingdom",
+   "gross": 48011513,
+   "releaseDate": "Dec 22",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Argylle",
+   "gross": 45207275,
+   "releaseDate": "Feb 2",
+   "distributor": "Universal Pictures International (UPI)"
+  },
+  {
+   "title": "Madame Web",
+   "gross": 43817106,
+   "releaseDate": "Feb 14",
+   "distributor": "Columbia Pictures"
+  },
+  {
+   "title": "Trap",
+   "gross": 42777281,
+   "releaseDate": "Aug 2",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "The Best Christmas Pageant Ever",
+   "gross": 39802723,
+   "releaseDate": "Nov 8",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Speak No Evil",
+   "gross": 36931420,
+   "releaseDate": "Sep 13",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "The Strangers: Chapter 1",
+   "gross": 35202562,
+   "releaseDate": "May 17",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Coraline15th Anniversary",
+   "gross": 33626425,
+   "releaseDate": "Aug 15",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Night Swim",
+   "gross": 32494740,
+   "releaseDate": "Jan 5",
+   "distributor": "Universal Pictures International (UPI)"
+  },
+  {
+   "title": "Conclave",
+   "gross": 31289705,
+   "releaseDate": "Oct 25",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "The Boys in the Boat",
+   "gross": 30642834,
+   "releaseDate": "Dec 25",
+   "distributor": "Amazon MGM Studios"
+  },
+  {
+   "title": "Reagan",
+   "gross": 30047417,
+   "releaseDate": "Aug 30",
+   "distributor": "-"
+  },
+  {
+   "title": "The Forge",
+   "gross": 29123632,
+   "releaseDate": "Aug 23",
+   "distributor": "Affirm Films"
+  },
+  {
+   "title": "Horizon: An American Saga - Chapter 1",
+   "gross": 29035702,
+   "releaseDate": "Jun 28",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "A Complete Unknown",
+   "gross": 28501840,
+   "releaseDate": "Dec 25",
+   "distributor": "Searchlight Pictures"
+  },
+  {
+   "title": "Imaginary",
+   "gross": 28009161,
+   "releaseDate": "Mar 8",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Heretic",
+   "gross": 26694937,
+   "releaseDate": "Nov 8",
+   "distributor": "A24"
+  },
+  {
+   "title": "Abigail",
+   "gross": 25867515,
+   "releaseDate": "Apr 19",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Monkey Man",
+   "gross": 25116955,
+   "releaseDate": "Apr 5",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "Arthur the King",
+   "gross": 25049006,
+   "releaseDate": "Mar 15",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "We Live in Time",
+   "gross": 24600983,
+   "releaseDate": "Oct 11",
+   "distributor": "A24"
+  },
+  {
+   "title": "Poor Things",
+   "gross": 24284189,
+   "releaseDate": "Dec 8",
+   "distributor": "Searchlight Pictures"
+  },
+  {
+   "title": "Blink Twice",
+   "gross": 23093906,
+   "releaseDate": "Aug 23",
+   "distributor": "Amazon MGM Studios"
+  },
+  {
+   "title": "Kraven the Hunter",
+   "gross": 21915474,
+   "releaseDate": "Dec 13",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "The Bikeriders",
+   "gross": 21714630,
+   "releaseDate": "Jun 21",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "The Ministry of Ungentlemanly Warfare",
+   "gross": 20535053,
+   "releaseDate": "Apr 19",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Fly Me to the Moon",
+   "gross": 20532222,
+   "releaseDate": "Jul 12",
+   "distributor": "Columbia Pictures"
+  },
+  {
+   "title": "Unsung Hero",
+   "gross": 20335239,
+   "releaseDate": "Apr 26",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "The First Omen",
+   "gross": 20092802,
+   "releaseDate": "Apr 5",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Cabrini",
+   "gross": 19512134,
+   "releaseDate": "Mar 8",
+   "distributor": "Angel Studios"
+  },
+  {
+   "title": "American Fiction",
+   "gross": 19442987,
+   "releaseDate": "Dec 15",
+   "distributor": "Metro-Goldwyn-Mayer (MGM)"
+  },
+  {
+   "title": "Ordinary Angels",
+   "gross": 19174421,
+   "releaseDate": "Feb 23",
+   "distributor": "-"
+  },
+  {
+   "title": "The Iron Claw",
+   "gross": 19110429,
+   "releaseDate": "Dec 22",
+   "distributor": "A24"
+  },
+  {
+   "title": "The Watchers",
+   "gross": 19071404,
+   "releaseDate": "Jun 7",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Tarot",
+   "gross": 18771004,
+   "releaseDate": "May 3",
+   "distributor": "Screen Gems"
+  },
+  {
+   "title": "Demon Slayer: Kimetsu No Yaiba - To the Hashira Training",
+   "gross": 17657658,
+   "releaseDate": "Feb 23",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Harold and the Purple Crayon",
+   "gross": 17640924,
+   "releaseDate": "Aug 2",
+   "distributor": "Columbia Pictures"
+  },
+  {
+   "title": "The Color Purple",
+   "gross": 16571549,
+   "releaseDate": "Dec 25",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "The Substance",
+   "gross": 16447054,
+   "releaseDate": "Sep 20",
+   "distributor": "MUBI"
+  },
+  {
+   "title": "Immaculate",
+   "gross": 15671307,
+   "releaseDate": "Mar 22",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Borderlands",
+   "gross": 15482668,
+   "releaseDate": "Aug 9",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Interstellar2024 Re-release",
+   "gross": 15207563,
+   "releaseDate": "Dec 6",
+   "distributor": "Paramount Pictures"
+  },
+  {
+   "title": "MaXXXine",
+   "gross": 15097632,
+   "releaseDate": "Jul 5",
+   "distributor": "A24"
+  },
+  {
+   "title": "The Chosen: S4 Episodes 1-3",
+   "gross": 14410169,
+   "releaseDate": "Feb 1",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Anora",
+   "gross": 14146804,
+   "releaseDate": "Oct 18",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Homestead",
+   "gross": 13988821,
+   "releaseDate": "Dec 20",
+   "distributor": "Angel Studios"
+  },
+  {
+   "title": "Star Wars: Episode I - The Phantom Menace2024 Re-release",
+   "gross": 13029994,
+   "releaseDate": "May 3",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Kalki 2898 AD",
+   "gross": 12727044,
+   "releaseDate": "Jun 27",
+   "distributor": "-"
+  },
+  {
+   "title": "Am I Racist?",
+   "gross": 12311598,
+   "releaseDate": "Sep 13",
+   "distributor": "SDG Releasing"
+  },
+  {
+   "title": "Here",
+   "gross": 12237270,
+   "releaseDate": "Nov 1",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Bonhoeffer: Pastor. Spy. Assassin.",
+   "gross": 12121045,
+   "releaseDate": "Nov 22",
+   "distributor": "Angel Studios"
+  },
+  {
+   "title": "Sound of Hope: The Story of Possum Trot",
+   "gross": 11647099,
+   "releaseDate": "Jul 4",
+   "distributor": "Angel Studios"
+  },
+  {
+   "title": "Godzilla Minus One",
+   "gross": 11564257,
+   "releaseDate": "Dec 1",
+   "distributor": "-"
+  },
+  {
+   "title": "The Boy and the Heron",
+   "gross": 10986312,
+   "releaseDate": "Dec 8",
+   "distributor": "GKIDS"
+  },
+  {
+   "title": "The Chosen: S4 Episodes 4-6",
+   "gross": 10797328,
+   "releaseDate": "Feb 15",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Never Let Go",
+   "gross": 10306106,
+   "releaseDate": "Sep 20",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Late Night with the Devil",
+   "gross": 10000293,
+   "releaseDate": "Mar 22",
+   "distributor": "IFC Films"
+  },
+  {
+   "title": "Lisa Frankenstein",
+   "gross": 9774285,
+   "releaseDate": "Feb 9",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "Piece by Piece",
+   "gross": 9756635,
+   "releaseDate": "Oct 11",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "Saturday Night",
+   "gross": 9511315,
+   "releaseDate": "Sep 27",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "The Crow",
+   "gross": 9275659,
+   "releaseDate": "Aug 23",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "Babygirl",
+   "gross": 9186495,
+   "releaseDate": "Dec 25",
+   "distributor": "A24"
+  },
+  {
+   "title": "Thelma",
+   "gross": 9002073,
+   "releaseDate": "Jun 21",
+   "distributor": "Magnolia Pictures"
+  },
+  {
+   "title": "The Lord of the Rings: The War of the Rohirrim",
+   "gross": 8755502,
+   "releaseDate": "Dec 13",
+   "distributor": "Warner Bros."
+  },
+  {
+   "title": "Love Lies Bleeding",
+   "gross": 8335797,
+   "releaseDate": "Mar 8",
+   "distributor": "A24"
+  },
+  {
+   "title": "The Zone of Interest",
+   "gross": 8195679,
+   "releaseDate": "Dec 8",
+   "distributor": "A24"
+  },
+  {
+   "title": "Spy x Family Code: White",
+   "gross": 8110042,
+   "releaseDate": "Apr 19",
+   "distributor": "Crunchyroll"
+  },
+  {
+   "title": "Ferrari",
+   "gross": 7771546,
+   "releaseDate": "Dec 25",
+   "distributor": "Neon"
+  },
+  {
+   "title": "The Chosen: S4 Episodes 7-8",
+   "gross": 7729152,
+   "releaseDate": "Feb 29",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "A Real Pain",
+   "gross": 7676866,
+   "releaseDate": "Nov 1",
+   "distributor": "Searchlight Pictures"
+  },
+  {
+   "title": "Megalopolis",
+   "gross": 7629085,
+   "releaseDate": "Sep 27",
+   "distributor": "-"
+  },
+  {
+   "title": "Sight",
+   "gross": 7206741,
+   "releaseDate": "May 24",
+   "distributor": "Angel Studios"
+  },
+  {
+   "title": "Haikyu!! The Dumpster Battle",
+   "gross": 7071622,
+   "releaseDate": "May 31",
+   "distributor": "Crunchyroll"
+  },
+  {
+   "title": "Afraid",
+   "gross": 6725687,
+   "releaseDate": "Aug 30",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+   "gross": 6630969,
+   "releaseDate": "Nov 17",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "I.S.S.",
+   "gross": 6573799,
+   "releaseDate": "Jan 19",
+   "distributor": "Bleecker Street Media"
+  },
+  {
+   "title": "Pushpa: The Rule - Part 2",
+   "gross": 6400000,
+   "releaseDate": "Dec 5",
+   "distributor": "AA Films"
+  },
+  {
+   "title": "Cuckoo",
+   "gross": 6217733,
+   "releaseDate": "Aug 9",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Back to Black",
+   "gross": 6157705,
+   "releaseDate": "May 17",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "The Book of Clarence",
+   "gross": 6132813,
+   "releaseDate": "Jan 12",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "The Nightmare Before Christmas2024 Re-release",
+   "gross": 6124705,
+   "releaseDate": "Oct 11",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Columbia 100th Anniversary SeriesColumbia 100th Anniversary Series",
+   "gross": 6013515,
+   "releaseDate": "Apr 15",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Someone Like You",
+   "gross": 5937306,
+   "releaseDate": "Apr 5",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "One Life",
+   "gross": 5716885,
+   "releaseDate": "Mar 15",
+   "distributor": "Bleecker Street Media"
+  },
+  {
+   "title": "Devara Part 1",
+   "gross": 5600000,
+   "releaseDate": "Sep 26",
+   "distributor": "-"
+  },
+  {
+   "title": "Trolls Band Together",
+   "gross": 5456710,
+   "releaseDate": "Nov 17",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "The Killer's Game",
+   "gross": 5404378,
+   "releaseDate": "Sep 13",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "My Old Ass",
+   "gross": 5372282,
+   "releaseDate": "Sep 13",
+   "distributor": "Amazon MGM Studios"
+  },
+  {
+   "title": "White Bird",
+   "gross": 5069171,
+   "releaseDate": "Oct 4",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "My Hero Academia: You're Next",
+   "gross": 5041781,
+   "releaseDate": "Oct 11",
+   "distributor": "-"
+  },
+  {
+   "title": "Kinds of Kindness",
+   "gross": 5038931,
+   "releaseDate": "Jun 21",
+   "distributor": "Searchlight Pictures"
+  },
+  {
+   "title": "Drive-Away Dolls",
+   "gross": 5028215,
+   "releaseDate": "Feb 23",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "The Fire Inside",
+   "gross": 5021220,
+   "releaseDate": "Dec 25",
+   "distributor": "-"
+  },
+  {
+   "title": "I Saw the TV Glow",
+   "gross": 5017817,
+   "releaseDate": "May 3",
+   "distributor": "A24"
+  },
+  {
+   "title": "Wicked Little Letters",
+   "gross": 5008178,
+   "releaseDate": "Mar 29",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Dìdi",
+   "gross": 4839360,
+   "releaseDate": "Jul 26",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "Origin",
+   "gross": 4689830,
+   "releaseDate": "Dec 8",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Land of Bad",
+   "gross": 4620045,
+   "releaseDate": "Feb 16",
+   "distributor": "The Avenue Entertainment"
+  },
+  {
+   "title": "The Exorcism",
+   "gross": 4530418,
+   "releaseDate": "Jun 21",
+   "distributor": "Vertical Entertainment"
+  },
+  {
+   "title": "In a Violent Nature",
+   "gross": 4229999,
+   "releaseDate": "May 31",
+   "distributor": "IFC Films"
+  },
+  {
+   "title": "For King + Country: A Drummer Boy Christmas - Live",
+   "gross": 4227406,
+   "releaseDate": "Dec 5",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Y2K",
+   "gross": 4210306,
+   "releaseDate": "Dec 6",
+   "distributor": "A24"
+  },
+  {
+   "title": "The Apprentice",
+   "gross": 4001910,
+   "releaseDate": "Oct 11",
+   "distributor": "Briarcliff Entertainment"
+  },
+  {
+   "title": "Babes",
+   "gross": 3800038,
+   "releaseDate": "May 17",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Perfect Days",
+   "gross": 3766668,
+   "releaseDate": "Feb 7",
+   "distributor": "Neon"
+  },
+  {
+   "title": "Oppenheimer",
+   "gross": 3761170,
+   "releaseDate": "Jul 21",
+   "distributor": "Universal Pictures"
+  },
+  {
+   "title": "All of Us Strangers",
+   "gross": 3703589,
+   "releaseDate": "Dec 22",
+   "distributor": "Searchlight Pictures"
+  },
+  {
+   "title": "Shrek 22024 Re-release",
+   "gross": 3427910,
+   "releaseDate": "Apr 12",
+   "distributor": "DreamWorks"
+  },
+  {
+   "title": "Wish",
+   "gross": 3364674,
+   "releaseDate": "Nov 22",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Solo Leveling: ReAwakening",
+   "gross": 3350693,
+   "releaseDate": "Dec 6",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "God's Not Dead: In God We Trust",
+   "gross": 3269322,
+   "releaseDate": "Sep 12",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "The Lord of the Rings: The Fellowship of the Ring2024 Re-release",
+   "gross": 3256658,
+   "releaseDate": "Jun 7",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "2024 Oscar Nominated Short Films: Documentary",
+   "gross": 3162293,
+   "releaseDate": "Feb 16",
+   "distributor": "ShortsTV"
+  },
+  {
+   "title": "The Front Room",
+   "gross": 3092269,
+   "releaseDate": "Sep 6",
+   "distributor": "A24"
+  },
+  {
+   "title": "Strange Darling",
+   "gross": 3083595,
+   "releaseDate": "Aug 23",
+   "distributor": "-"
+  },
+  {
+   "title": "The Long Game",
+   "gross": 3060040,
+   "releaseDate": "Apr 12",
+   "distributor": "-"
+  },
+  {
+   "title": "Jesus Thirsts: The Miracle of the Eucharist",
+   "gross": 2927121,
+   "releaseDate": "Jun 4",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "1992",
+   "gross": 2906073,
+   "releaseDate": "Aug 30",
+   "distributor": "Lionsgate"
+  },
+  {
+   "title": "The Fabulous Four",
+   "gross": 2854291,
+   "releaseDate": "Jul 26",
+   "distributor": "Bleecker Street Media"
+  },
+  {
+   "title": "Queer",
+   "gross": 2837173,
+   "releaseDate": "Nov 27",
+   "distributor": "A24"
+  },
+  {
+   "title": "My Penguin Friend",
+   "gross": 2769460,
+   "releaseDate": "Aug 16",
+   "distributor": "Roadside Attractions"
+  },
+  {
+   "title": "Absolution",
+   "gross": 2716343,
+   "releaseDate": "Nov 1",
+   "distributor": "The Samuel Goldwyn Company"
+  },
+  {
+   "title": "The Taste of Things",
+   "gross": 2655074,
+   "releaseDate": "Feb 9",
+   "distributor": "IFC Films"
+  },
+  {
+   "title": "GHOST: Rite Here Rite Now",
+   "gross": 2647702,
+   "releaseDate": "Jun 20",
+   "distributor": "Trafalgar Releasing"
+  },
+  {
+   "title": "Ezra",
+   "gross": 2631460,
+   "releaseDate": "May 31",
+   "distributor": "Bleecker Street Media"
+  },
+  {
+   "title": "Sight & Sound Presents: Daniel LIVE",
+   "gross": 2629933,
+   "releaseDate": "Aug 30",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Boy Kills World",
+   "gross": 2626127,
+   "releaseDate": "Apr 26",
+   "distributor": "Roadside Attractions"
+  },
+  {
+   "title": "Hello, Love, Again",
+   "gross": 2625000,
+   "releaseDate": "Nov 14",
+   "distributor": "-"
+  },
+  {
+   "title": "Escape from Germany",
+   "gross": 2576216,
+   "releaseDate": "Apr 12",
+   "distributor": "Susan Tuckett Media"
+  },
+  {
+   "title": "Jung Kook: I Am Still",
+   "gross": 2574318,
+   "releaseDate": "Sep 18",
+   "distributor": "Trafalgar Releasing"
+  },
+  {
+   "title": "The Lord of the Rings: The Two Towers2024 Re-release",
+   "gross": 2566412,
+   "releaseDate": "Jun 7",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "The Blue Angels",
+   "gross": 2560945,
+   "releaseDate": "May 17",
+   "distributor": "Amazon MGM Studios"
+  },
+  {
+   "title": "Problemista",
+   "gross": 2503154,
+   "releaseDate": "Mar 1",
+   "distributor": "A24"
+  },
+  {
+   "title": "The American Society of Magical Negroes",
+   "gross": 2480645,
+   "releaseDate": "Mar 15",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "The Lord of the Rings: The Return of the King2024 Re-release",
+   "gross": 2450927,
+   "releaseDate": "Jun 10",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Summer Camp",
+   "gross": 2403638,
+   "releaseDate": "May 31",
+   "distributor": "Roadside Attractions"
+  },
+  {
+   "title": "Sing Sing",
+   "gross": 2403211,
+   "releaseDate": "Jan 17",
+   "distributor": "A24"
+  },
+  {
+   "title": "Howl's Moving Castle20th Anniversary – Studio Ghibli Fest 2024",
+   "gross": 2384690,
+   "releaseDate": "Sep 26",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
+   "gross": 2328339,
+   "releaseDate": "Dec 12",
+   "distributor": "Trafalgar Releasing"
+  },
+  {
+   "title": "Hitpig",
+   "gross": 2324019,
+   "releaseDate": "Nov 1",
+   "distributor": "Viva Pictures"
+  },
+  {
+   "title": "Elevation",
+   "gross": 2321801,
+   "releaseDate": "Nov 8",
+   "distributor": "Vertical Entertainment"
+  },
+  {
+   "title": "Alien2024 Re-release",
+   "gross": 2305647,
+   "releaseDate": "Apr 26",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Exhuma",
+   "gross": 2288496,
+   "releaseDate": "Mar 15",
+   "distributor": "Well Go USA Entertainment"
+  },
+  {
+   "title": "Flow",
+   "gross": 2280601,
+   "releaseDate": "Nov 22",
+   "distributor": "Janus Films"
+  },
+  {
+   "title": "In the Land of Saints and Sinners",
+   "gross": 2258795,
+   "releaseDate": "Mar 29",
+   "distributor": "The Samuel Goldwyn Company"
+  },
+  {
+   "title": "Bhool Bhulaiyaa 3",
+   "gross": 2230000,
+   "releaseDate": "Nov 1",
+   "distributor": "-"
+  },
+  {
+   "title": "The Lion King2024 Re-release",
+   "gross": 2195943,
+   "releaseDate": "Jul 12",
+   "distributor": "Walt Disney Studios Motion Pictures"
+  },
+  {
+   "title": "Singham Again",
+   "gross": 2190000,
+   "releaseDate": "Nov 1",
+   "distributor": "-"
+  },
+  {
+   "title": "Stree 2",
+   "gross": 2184000,
+   "releaseDate": "Aug 16",
+   "distributor": "-"
+  },
+  {
+   "title": "The Holdovers",
+   "gross": 2146720,
+   "releaseDate": "Oct 27",
+   "distributor": "Focus Features"
+  },
+  {
+   "title": "Average Joe",
+   "gross": 2106965,
+   "releaseDate": "Oct 11",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "The Ark and the Darkness",
+   "gross": 2097560,
+   "releaseDate": "Mar 20",
+   "distributor": "Fathom Events"
+  },
+  {
+   "title": "Between the Temples",
+   "gross": 2084121,
+   "releaseDate": "Aug 23",
+   "distributor": "-"
+  },
+  {
+   "title": "Lee",
+   "gross": 2005488,
+   "releaseDate": "Sep 27",
+   "distributor": "Roadside Attractions"
+  },
+  {
+   "title": "Look Back",
+   "gross": 2002270,
+   "releaseDate": "Oct 4",
+   "distributor": "GKIDS"
+  },
+  {
+   "title": "Yolo",
+   "gross": 2001584,
+   "releaseDate": "Mar 8",
+   "distributor": "Sony Pictures Releasing"
+  },
+  {
+   "title": "Queen Rock Montreal",
+   "gross": 2000000,
+   "releaseDate": "Jan 18",
+   "distributor": "-"
+  },
+  {
+   "title": "The Order",
+   "gross": 1980622,
+   "releaseDate": "Dec 6",
+   "distributor": "Vertical Entertainment"
+  },
+  {
+   "title": "SUGA: Agust D Tour 'D-DAY' the Movie",
+   "gross": 1951896,
+   "releaseDate": "Apr 10",
+   "distributor": "Trafalgar Releasing"
+  },
+  {
+   "title": "Out of Darkness",
+   "gross": 1951547,
+   "releaseDate": "Feb 9",
+   "distributor": "Bleecker Street Media"
+  }
+ ]
+}

@@ -1,67 +1,122 @@
-"""Export the Fantasy Box Office workbook to data/data.json for the static site.
+"""Assemble data/data.json (what the website reads) from the files in data/.
 
-Usage: python scripts/build_data.py path/to/Fantasy_Box_Office_2024.xlsx [out.json] [YYYY-MM-DD]
+Inputs : config.json, picks.json, movies.csv, bom_domestic.json, bom_mexico.json, rt_scores.json
+Output : data.json
 
-Emails, offices and roles are deliberately NOT exported.
+Safety: a movie's gross is never allowed to drop by more than 2% (or vanish) in one rebuild. If a
+refresh would do that, the previous value is kept and a warning is raised, because grosses only
+grow, so a drop means the pull was incomplete or garbled.
 """
-import json, sys, re, datetime
-from openpyxl import load_workbook
+import csv, sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import DATA, load, save, norm, money, warning, error, notice, summary
 
-src = sys.argv[1]
-out = sys.argv[2] if len(sys.argv) > 2 else "data/data.json"
-updated = sys.argv[3] if len(sys.argv) > 3 else datetime.date.today().isoformat()  # YYYY-MM-DD shown on the site
-wb = load_workbook(src, data_only=True)
+MAX_DROP = 0.98
 
-def money(v):
-    if v in (None, "", "-"): return 0
-    if isinstance(v, (int, float)): return int(v)
-    return int(re.sub(r"[^\d]", "", str(v)) or 0)
 
-def bom(sheet):
-    d = {}
-    for r in wb[sheet].iter_rows(min_row=2, values_only=True):
-        if r[1]:
-            d[str(r[1]).strip().lower()] = dict(  # lowercase: Excel XLOOKUP is case-insensitive
-                gross=money(r[5]), month=str(r[8] or "")[:3], dist=r[9] or "")
-    return d
-dom, mex = bom("2024 Movie Data BOM DOM"), bom("2024 Movie Data BOM MEX")
+def die(msg):
+    error(msg); sys.exit(1)
 
-inp = wb["Inputs"]
-movies = {}
-for r in range(6, 200):
-    name = inp.cell(r, 1).value
-    if not name: continue
-    name = str(name).strip()
-    d = dom.get(name.lower())
-    movies[name] = dict(
-        distributor=d["dist"] if d else "Not Released Yet",
-        month=d["month"] if d else "",
-        grossDom=d["gross"] if d else 0,
-        grossMex=mex.get(name.lower(), {}).get("gross", 0),
-        franchise=bool(inp.cell(r, 7).value),
-        rt=inp.cell(r, 8).value or 0,
-    )
 
-employed = {inp.cell(r, 14).value: bool(inp.cell(r, 15).value) for r in range(6, 60) if inp.cell(r, 14).value}
+def parse_rt(v):
+    """'45', '45%' or '0.45' -> 0.45. Blank -> None."""
+    v = str(v or "").strip().rstrip("%")
+    if not v: return None
+    try: x = float(v)
+    except ValueError: die(f"movies.csv: can't read Rotten Tomatoes override '{v}'")
+    return x / 100 if x > 1 else x
 
-eng = wb["Engine"]
-players = {}
-for r in range(6, 402):
-    p = eng.cell(r, 21).value
-    if p in (None, 0, ""): continue
-    players.setdefault(p, []).append(dict(
-        pick=str(eng.cell(r, 23).value).strip(), movie=eng.cell(r, 24).value, scoring=bool(eng.cell(r, 30).value)))
 
-# Rule switches live in data.json so the commissioner can edit them; rebuilds keep whatever is already there.
-enforce = dict(sequels=True, summer=True, distributor=True)
-try: enforce.update({k: v for k, v in json.load(open(out)).get("enforce", {}).items() if k in enforce})
-except (OSError, ValueError): pass
+def month_of(text):
+    """'Jun 14' -> 'Jun'. Also copes with '6/14/2024' or '2024-06-14'."""
+    import datetime
+    t = (text or "").strip()
+    if len(t) >= 3 and t[:3].isalpha(): return t[:3].title()
+    for fmt in ("%m/%d/%Y", "%Y-%m-%d", "%m/%d/%y", "%d-%b-%Y"):
+        try: return datetime.datetime.strptime(t.split(" ")[0], fmt).strftime("%b")
+        except ValueError: pass
+    return ""
 
-data = dict(
-    updated=updated,
-    enforce=enforce,
-    season=2024, penalty=75_000_000, rtThreshold=eng["AB3"].value, movies=movies,
-    players=[dict(name=n, employed=employed.get(n, True), picks=pk) for n, pk in sorted(players.items())],
-)
-json.dump(data, open(out, "w"), indent=1, ensure_ascii=False)
-print(f"{len(data['players'])} players, {len(movies)} movies -> {out}")
+
+def index_bom(snap):
+    out = {}
+    for r in (snap or {}).get("rows", []):
+        k = norm(r["title"])
+        if k not in out or r["gross"] > out[k]["gross"]:
+            out[k] = r
+    return out
+
+
+def date_of(snap):
+    for key in ("fetchedAt", "importedAt"):
+        if snap and snap.get(key): return snap[key][:10]
+    return ""
+
+
+def main():
+    cfg = load("config.json") or die("data/config.json is missing")
+    picks = load("picks.json") or die("data/picks.json is missing")
+    dom_snap, mex_snap, rt_snap = load("bom_domestic.json"), load("bom_mexico.json"), load("rt_scores.json", {})
+    if not dom_snap: die("data/bom_domestic.json is missing")
+    dom, mex = index_bom(dom_snap), index_bom(mex_snap)
+    rt_cache = (rt_snap or {}).get("scores", {})
+    prev = (load("data.json") or {}).get("movies", {})
+
+    with open(DATA / "movies.csv", encoding="utf-8", newline="") as f:
+        rows = [r for r in csv.DictReader(f) if (r.get("movie") or "").strip()]
+    movies, kept, unmatched, rt_changes = {}, [], [], []
+    for r in rows:
+        name = " ".join(r["movie"].split())
+        d, m, p = dom.get(norm(name)), mex.get(norm(name)), prev.get(name, {})
+        gross_dom, gross_mex = (d["gross"] if d else 0), (m["gross"] if m else 0)
+        for label, new, old in (("US", gross_dom, p.get("grossDom", 0)), ("Mexico", gross_mex, p.get("grossMex", 0))):
+            if old and new < old * MAX_DROP:
+                kept.append(f"{name} ({label}): new ${new:,} vs previous ${old:,}")
+                if label == "US": gross_dom = old
+                else: gross_mex = old
+        if not d and p.get("grossDom", 0) == 0: unmatched.append(name)
+        override = parse_rt(r.get("rt_override"))
+        rt = override if override is not None else (rt_cache.get(name, {}).get("score") or 0)
+        if p and abs((p.get("rt") or 0) - rt) > 1e-9: rt_changes.append(f"{name}: {round((p.get('rt') or 0) * 100)}% → {round(rt * 100)}%")
+        movies[name] = {
+            "distributor": (d["distributor"] if d else (p.get("distributor") if p.get("grossDom") else "")) or "Not Released Yet",
+            "month": (month_of(d["releaseDate"]) if d and d["releaseDate"] else (p.get("month", "") if p.get("grossDom") else "")),
+            "grossDom": gross_dom, "grossMex": gross_mex,
+            "franchise": str(r.get("franchise", "")).strip() in ("1", "true", "True", "yes", "Yes", "Y", "y"),
+            "rt": rt,
+        }
+
+    by_norm = {norm(n): n for n in movies}
+    players = []
+    for p in picks["players"]:
+        out = []
+        for k in p["picks"]:
+            clean = by_norm.get(norm(k["movie"]))
+            if not clean: die(f"{p['name']} picked '{k['movie']}', which isn't listed in data/movies.csv")
+            out.append({"pick": k["pick"], "movie": clean, "scoring": bool(k.get("handPicked"))})
+        players.append({"name": p["name"], "employed": p.get("employed", True), "picks": out})
+
+    data = {
+        "updated": date_of(dom_snap), "rtUpdated": date_of(rt_snap), "refreshDays": cfg.get("refreshEveryDays", 10),
+        "enforce": cfg.get("enforce", {}), "season": cfg["season"], "penalty": cfg["penalty"], "rtThreshold": cfg["rtThreshold"],
+        "movies": movies, "players": players,
+    }
+    before = load("data.json")
+    save("data.json", data)
+
+    # ---- report ----
+    lines = [f"### Rebuilt data.json", f"- {len(players)} players, {len(movies)} movies; box office as of {data['updated']}, Rotten Tomatoes as of {data['rtUpdated']}"]
+    if before:
+        moved = sorted(((m["grossDom"] + m["grossMex"]) - (before["movies"].get(n, {}).get("grossDom", 0) + before["movies"].get(n, {}).get("grossMex", 0)), n) for n, m in movies.items())
+        moved = [(d, n) for d, n in reversed(moved) if d > 0][:5]
+        if moved: lines.append("- Biggest gross changes: " + "; ".join(f"{n} +${d:,}" for d, n in moved))
+    if rt_changes: lines.append("- Rotten Tomatoes changes: " + "; ".join(rt_changes))
+    if kept:
+        for k in kept: warning("Kept previous gross because the new number dropped: " + k)
+        lines.append("- ⚠️ Kept previous gross (new number was lower): " + "; ".join(kept))
+    if unmatched: lines.append("- Not found on Box Office Mojo (scored $0, treated as unreleased): " + ", ".join(sorted(unmatched)))
+    print("\n".join(lines)); summary("\n".join(lines))
+
+
+if __name__ == "__main__":
+    main()
