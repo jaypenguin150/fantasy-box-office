@@ -7,5 +7,6 @@
   "sequels": true,
   "summer": true,
   "distributor": true
- }
+ },
+ "nameStyle": "short"
 }
